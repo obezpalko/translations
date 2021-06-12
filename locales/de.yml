@@ -25,7 +25,7 @@ de:
     step: Schritt
   edit_profile:
     sidebar_questions:
-      pics_and_vids_discoverability_a: Deine Bilder und Videos erscheinen nur für Deine Freund_innen und Follower. Wenn auch der Rest der Gemeinschaft Deine wohlschmerzenden Inhalte finden sollen, kannst Du das in deinen Privatsphäre-Einstellungen festlegen.
+      pics_and_vids_discoverability_a: Deine Bilder und Videos erscheinen nur für Deine Freund:innen und Follower:innen. Wenn auch der Rest der Gemeinschaft Deine wohlschmerzenden Inhalte finden sollen, kannst Du das in deinen Privatsphäre-Einstellungen festlegen.
       pics_and_vids_discoverability_link: Zu den Einstellungen wechseln
       pics_and_vids_discoverability_q: Bilder- und Video-Auffindbarkeit
   feed:
@@ -37,7 +37,7 @@ de:
       button: Sag was
       placeholder: Was sagst Du?
     love: Liebe
-    loved_hover: Herzensbrecher! :-(
+    loved_hover: Sag mal, brichst du gern Herzen? :-(
     loves_count:
       one: 1 Herz
       other: "%{count_with_delimiter} Herzen"
@@ -214,7 +214,7 @@ de:
       other: "%{count_with_delimiter} Bilder"
     posts:
       one: 1 Text
-      other: "%{count_with_delimiter} Texte"
+      other: "%{count_with_delimiter} Schriften"
     vids:
       one: 1 Video
       other: "%{count_with_delimiter} Videos"
@@ -227,7 +227,7 @@ de:
     places: Orte
     search_placeholder: FetLife durchsuchen
     videos: Videos
-    writings: Texte
+    writings: Schriften
   page_break:
     of: von
   privacy:
@@ -240,7 +240,7 @@ de:
     button: Schalte Folgen an
     ps: P.S. Du kannst Folgen jederzeit abschalten.
     skip: Schalte Folgen für mich nicht an
-    subtitle: Trenne Deine Freund_innen von Deinen Followern.
+    subtitle: Trenne Deine Freund:innen von Deinen Follower:innen.
     title: Vorstellung des Konzepts „Folgen“
   recommendations:
     title: Empfehlungen
@@ -258,7 +258,7 @@ de:
     title: Passwort zurücksetzen
   select_language:
     button: Sprachvoreinstellung setzen
-    help_translate: Besuche unser <a class="silver" href="https://github.com/fetlife/translations">Übersetzungsprojekt</a> auf GitHub und hilf mit, den Zugang zu FetLife für weitere unserer kinky Freund_innen <span class="amp">&amp</span> Gemeinschaften zu erleichtern.
+    help_translate: Besuche unser <a class="silver" href="https://github.com/fetlife/translations">Übersetzungsprojekt</a> auf GitHub und hilf mit, den Zugang zu FetLife für weitere unserer kinky Freund:innen <span class="amp">&amp</span> Gemeinschaften zu erleichtern.
     language_name: Deutsch
     sub_header: Hi, hallo, olá, bonjour, ciao, ahoj, opa, szia, 你好, привет, merhaba!
     title: Sprachwahl
@@ -293,15 +293,15 @@ de:
     blocked_list_subtitle: Für die auf Deiner Liste der Ungezogenen.
     blocked_list_title: Liste von Dir gesperrter Mitglieder
     cb_feed: Nicht-Freunden erlauben, mir in ihrer Aktivitätschronik zu folgen
-    cb_fp: Meinen nicht-privaten Texten erlauben, auf Frisch & Pervers zu erscheinen
-    cb_kp: Meinen nicht-privaten Texten erlauben, auf Kinky & Beliebt zu erscheinen
+    cb_fp: Meinen nicht-privaten Schriften erlauben, auf Frisch & Pervers zu erscheinen
+    cb_kp: Meinen nicht-privaten Schriften erlauben, auf Kinky & Beliebt zu erscheinen
     content_privacy: Privatsphäre für Inhalte
     cta: Speichere Einstellungen der Privatsphäre
     following: Folgen
     page_title: Einstellungen der Privatsphäre
     subtitle: Serviert wie Sie es wünschen.
     title: Privatsphäre
-    warning: "<strong>Sehr wichtig</strong>: Ausschalten von Folgen wird alle Deine aktuellen Follower entfernen. Es gibt kein Zurück. Echt jetzt."
+    warning: "<strong>Sehr wichtig</strong>: Ausschalten von Folgen wird alle Deine aktuellen Follower:innen entfernen. Es gibt kein Zurück. Echt jetzt."
   settings_profile:
     about_you_label: Über Dich
     add_website: "+ eine Website hinzufügen"
@@ -326,19 +326,22 @@ de:
   sidebar:
     about_fetlife: Über FetLife
     ad_stats: Anzeigenstatistiken
+    advertisers: Alle Werbetreibenden
     advertising: Werbung
     already_member: Bereits Mitglied?
     androidapp: Installiere die FetLife-Android-App
     bug_bounty: Fehler-Prämie
+    careers: Karriere
     caretaking: Hausmeister-Werkzeuge
-    change_language: Sprache wechseln
+    change_language: Sprache
     close: Schließen
     contact_us: Kontaktiere uns
     edit_profile: Profil bearbeiten
-    edit_settings: Einstellungen bearbeiten
+    edit_settings: Einstellungen
     events: Veranstaltungen
     fetishes: Fetische
     following: Folgen
+    formatting: Formatierungsleitfaden
     fp: Frisch & Pervers
     friends_and_following: Befreundet & Gefolgt
     funny_quote: Wenn Du das nicht lesen kannst … brauchst Du vermutlich eine Brille! - John 4:69
@@ -353,11 +356,12 @@ de:
     log_out: Ausloggen
     login: Einloggen
     loved_stuff: Von Dir geliebt
-    need_help: Brauchst Du Hilfe?
+    need_help: Hilfe
     open_source: Open Source
     places: Orte
     preservation_requests: Preservation Requests
     privacy: Privatsphäre
+    privacy_policy: Datenschutzrichtlinie
     recommendations: Empfehlungen
     signup: Registrieren
     subscriptions: Abonnements
@@ -370,7 +374,7 @@ de:
     wallpapers: FetLife-Wallpapers
     whats_new: Neuigkeiten
     write_post: Neuer Text
-    writings: Texte
+    writings: Schriften
   signup:
     almost_there: Fast geschafft!
     error_bar: Dallas, wir haben ein Problem. Scrolle für mehr Informationen nach unten.
@@ -384,10 +388,10 @@ de:
     error_email: Wir haben Probleme, die obige E-Mail-Adresse zu verarbeiten. Wir empfehlen Dir, die Schreibweise zu überprüfen oder eine andere Adresse zu versuchen.
     error_gender_required: Geschlecht muss gewählt werden.
     error_nickname: Dieser Name ist schon vergeben.
-    error_nickname_bad_word: Der Name darf das Wort „%{word}“ nicht enthalten.
     error_nickname_characters: Der Name darf nur Buchstaben, Zahlen, Binde- und Unterstriche enthalten, aber keine Leerzeichen.
     error_nickname_length: Der Name muss zwischen 2 und 16 Zeichen lang sein.
     error_nickname_required: Der Name ist erforderlich.
+    error_nickname_tracked_term: Der Name darf das Wort „%{term}“ nicht enthalten.
     error_password_range: Das Passwort muss zwischen 8 und 100 Zeichen lang sein.
     error_password_required: Das Passwort ist erforderlich.
     error_role_required: Die Rolle muss gewählt werden.
@@ -424,7 +428,7 @@ de:
   signup_follow:
     follow: Folgen
     next_step: Nächster Schritt
-    subtitle: Folge BDSMler_innen, die Dein Interesse wecken.
+    subtitle: Folge BDSMler:innen, die Dein Interesse wecken.
     title: Erregt jemand Deine Aufmerksamkeit?
   signup_phone:
     cta: Verifikationsnummer zusenden
@@ -463,8 +467,8 @@ de:
       pictures_short: Bilder
       videos: Videos
       videos_short: Vids
-      writings: Texte
-      writings_short: Texte
+      writings: Schriften
+      writings_short: Schriften
     settings:
       account: Mitgliedskonto
       account_short: Mitglied
@@ -479,14 +483,15 @@ de:
   support:
     benefits:
       item_1: Eine sexy <span>I Support FetLife</span>-Plakette auf Deinem Profil.
-      item_2: Betrachte die <span>heutigen %{number}+ meist geliebten</span> Bilder, Videos, …
+      item_10: Bekomme früh <span>Zugang zu neuen Funktionen!</span>
+      item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
       item_3: Schaue <span>alle %{number}+ Videos</span>, die geteilt wurden.
       item_4: Sehe <span>alle %{number}+ Bilder</span> sobald sie geteilt werden.
       item_5: Betrachte <span>alles, was Du je geliebt hast</span>.
       item_6: Gehe <span>25x weiter</span> in Deiner Aktivitätschronik zurück.
       item_7: Gehe <span>25x weiter</span> in Deiner @You-Aktivitätschronik zurück.
-      item_8: "<span>Passe</span> Deine Freund_innen-Aktivitätschronik nach Belieben <span>an</span>."
-      item_9: Bekomme früh <span>Zugang zu neuen Funktionen!</span>
+      item_8: "<span>Passe</span> Deine Freund:innen-Aktivitätschronik nach Belieben <span>an</span>."
+      item_9: Die Möglichkeit, auf deinem Mobilgerät <span>eingebettete Anzeigen auszublenden.</span>
       list_description: 'Für nur $5 pro Monat hilfst Du nicht nur die Entwicklung von FetLife zu unterstützen, sondern bekommst auch:'
       list_footer: Alles für weniger als den Preis einer Flasche Gleitmittel… Jedoch empfehlen wir nicht Gleitmittel durch Rapsöl zu ersetzen… Das funktioniert nicht so gut.
       thank_you: Ohne Deine Unterstützung gäbe es kein FetLife. Danke Dir von der ganzen FetLife-Familie!
@@ -495,14 +500,14 @@ de:
       ach: Banküberweisung (ACH)
       cc_curo: Kreditkarte
       cc_trustpay: Kreditkarte
-      coingate: Bitcoin
+      coingate: Cryptocurrency
       eps: EPS
       giropay: giropay
       ideal: iDEAL
       interac: Interac e-Transfer
       mail: Brief
       paygarden: Geschenkkarte
-      paysafe: paysafecard
+      paysafe: Paysafecard
       poli: POLi Payments
       przelewy: Przelewy24
       sepa: SEPA-Abbuchung
@@ -542,7 +547,7 @@ de:
       question_q: Q. Noch Fragen?
       renew_a: Niemals. Wir wollen sie uns jedes Mal verdienen.
       renew_q: Q. Erneuert ihr meine Unterstützung automatisch?
-      return_a: Wir haben eine Sieben-Tage-Geld-zurück-Garantie. Leider können wir Geschenkkarten, POLi, Bitcoin oder Paysafecard wegen ihrer Funktionsweise nicht zurückzahlen.
+      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Cryptocurrency, or Paysafecard, due to the nature of how they work, they are final sale.
       return_q: Q. Wie läuft das mit der Rücknahme?
       secure_a: Ja, sehr. FetLife speichert keine eurer persönlichen Daten auf unseren Servern. Wir benutzen die angegebenen Daten nur für die Abbuchung und das wars.
       secure_q: Q. Ist das sicher?
@@ -569,8 +574,8 @@ de:
         extra_info: Wir akzeptieren Visa und Mastercard. Es ist leicht und sicher.
         title: Kreditkarte
       coingate:
-        extra_info: Bitcoin ist gar nicht so kompliziert wie es sich anhört. Den Uneingeweihten helfen wir durch den Prozess.
-        title: Bitcoin
+        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
+        title: Cryptocurrency
       eps:
         extra_info: So einfach und sicher wie die Bezahlung mit Kreditkarte. Für diejenigen mit einem EPS-fähigen Konto in Österreich.
         title: Österreichische Bezahloption (EPS)
@@ -592,7 +597,7 @@ de:
         extra_info: Tausche eine Geschenkkarte von mehr als hundert Marken wie Starbucks, Best Buy, Target, Walmart, Home Depot oder Build-A-Bear ein.
         title: Geschenkkarten bekannter Marken
       paysafe:
-        extra_info: Du kannst mit einer Paysafecard, die in über 500.000 Läden und 43 Ländern weltweit erhältlich ist, FetLife unterstützen.
+        extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
         title: Prepaid Paysafecard
       poli:
         extra_info: So einfach und sicher wie die Bezahlung mit Kreditkarte. Für diejenigen mit einem Konto in Australien oder Neuseeland.
@@ -668,14 +673,14 @@ de:
       secure: So sicher wie Fort Knox und wir speichern keine Deiner persönlichen Daten.
       title: Kreditkartenzahlung
     step3_coingate:
-      cta: Unterstütze FetLife via Bitcoin
-      intro: 'Bitcoin ist eine digitale Währung. Einige Einführungsvideos, die wir gerne angeschaut haben:'
-      secure: So sicher wie Fort Knox
-      title: Anleitung für Bitcoin
-      title_html: Anleitung für Bitcoin
-      wallets_list_header: 'Wir hatten gute Erfahrungen mit dem folgenden Anbieter von Wallets:'
-      wallets_title: Empfohlene Bitcoin-Wallets
-      what: Was ist Bitcoin?
+      cta: Support FetLife via Cryptocurrency
+      intro: 'Some intro videos we enjoyed watching:'
+      secure: Secure as Fort Knox
+      title: "“How To” for Cryptocurrency"
+      title_html: "&ldquo;How To&rdquo; for Cryptocurrency"
+      wallets_list_header: 'We''ve had good experience with the following wallet provider:'
+      wallets_title: Recommended Cryptocurrency Wallets
+      what: What is Cryptocurrency?
     step3_eps:
       address_label: Adresse
       address_sub_label: zum Konto gehörig
