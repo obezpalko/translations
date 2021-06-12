@@ -3,17 +3,25 @@ ua:
   2fa:
     5strike:
       return: повернутися на головну сторінку
-      subtitle: Shoot, for security reasons, you'll have to wait two hours before being able to try to login again.
+      subtitle: >
+        Мимо, з мірувань безпеки, Вам потрібно зачекати дві години перед
+        тим як спробувати увійти ще раз.
       title: Правило п'яти спроб
     cta: Це я, дозвольте увійти
-    error: "<strong>Розпусний оператор:</strong> Ох&hellip; код підтврдження не підходить. Перевірте, будь ласка, що Ви вводите номер, який отримали від нас та спробуйте ще раз."
+    error: >
+      <strong>Розпусний оператор:</strong> Ох&hellip; код підтврдження
+      не підходить. Перевірте, будь ласка, що Ви вводите номер, який отримали
+      від нас та спробуйте ще раз."
     label: Код аутентифікації
-    page_title: 2-Фактора аутентифікація
+    page_title: 2х-Факторна аутентифікація
     subtitle: У два етапи, крихітко!
     title: Секретний код
   about:
     contact_info: Контактна інформація
-    email_us: Наділшіть нам електронного листа на <a href="mailto:support@fetlife.com">support@fetlife.com</a> і ми відповімо Вам у найкоротший термін!
+    email_us: >
+      Наділшіть нам електронного листа на
+      <a href="mailto:support@fetlife.com">support@fetlife.com</a>
+      і ми відповімо Вам у найкоротший термін!
     europe: Європа
     got_question: Є питання? Потрібна допомога?
     north_america: Північна Америка
@@ -22,108 +30,158 @@ ua:
     sub_header: Не плутати зі Спартанцями.
     title: Ми. Є. FetLife!
   components:
-    step: Step
+    step: Крок
   edit_profile:
     sidebar_questions:
-      pics_and_vids_discoverability_a: Through FetLife’s search, your pics and vids are only findable by friends and followers. If you want other FetLifers to discover your kinkalicious pics and vids, you can update your privacy settings.
-      pics_and_vids_discoverability_link: Go to settings
-      pics_and_vids_discoverability_q: Pics and vid discoverability
+      pics_and_vids_discoverability_a: >
+        Тільки ваші друзі та дописувачі зможуть за допомогую пошука FetLife
+        знаходити Ваші зображення та відео.
+        Якщо Ви бажаєте, щоб інші зареєстровані користувачі FetLife теж могли
+        знаходити Ваші зображення та відео, Ви повинні змінити налаштування
+        приватності.
+      pics_and_vids_discoverability_link: До налаштувань
+      pics_and_vids_discoverability_q: Видимість зображень та відео
   feed:
     comment: Коментар
     comments_count:
       one: 1 Коментар
-      other: "%{count_with_delimiter} Коментаря(ів)"
+      other: "%{count_with_delimiter} Коментар(ів)"
     composer:
-      button: Скажи це
-      placeholder: What say you?
-    love: Love
-    loved_hover: Heart Breaker! :-(
+      button: Відправити
+      placeholder: Залишити коментар
+    love: Вподобати
+    loved_hover: Розбивач сердець! :-(
     loves_count:
       one: 1 Вподобання
       other: "%{count_with_delimiter} Вподобань"
     modal:
-      close: close
-      more: more
-      reply: Reply
-    title: Activity Feed
+      close: закрити
+      more: ще
+      reply: Відповідь
+    title: Стрічка подій
   following:
-    follow: Follow
-    following: Following
+    follow: Стежити
+    following: Послідовники
   footer:
-    advertising: Advertising
-    contact: Contact Us
-    glossary: Glossary
+    advertising: Реклама
+    contact: Зв'язатися з нами
+    glossary: Слловник
     help: Допомога
-    privacy: Privacy
+    privacy: Приватність
   forgot_password:
     email:
       cta: Надішліть мені електронного листа з інструкціями
       error_forgot_email: Потрібно вказати адресу електрнонної пошти.
-      error_invalid_email: That doesn't look like a valid email address. Mind reviewing it and re-submitting please.
-      error_quota: We've recently sent a reset email to the above email address.  It can take up to 5-10 minutes for an email to show up in your inbox.  Please double check that the email did not end up in your spam folder.  If after 10 minutes you have not received the email you may try again to reset your password.
+      error_invalid_email: >
+        Це не схоже на справжню адресу електронної пошти.
+        Перевірте та введіть ще раз
+      error_quota: >
+        Ми щойно надіслали електронну пошту з іструкціяпи по скиданню пароля.
+        Цей лист може прийти протягом 5-10 хвилин до Вашої поштової скриньки.
+        Будь ласка перевірте що цей лист не потрапив до Вашой папки Spam.
+        Якщо за 10 хвилин ви не отримаєте цього електронного листа,
+        то зможете знову спробувати скинути Ваш пароль.
       placeholder: Адреса електронної пошти
       step1:
-        page_title: Reset Password via Email
-        subtitle: Let me help you with that.
+        page_title: Скинути пароль за допомогою електронної пошти
+        subtitle: Довзольте допомогти Вам з цим.
         title: Забули пароль?
       step2:
-        page_title: You "MIGHT" Have Mail
-        subtitle: If there is a profile associated to <span class='fw7'>%{given_email}</span> then we've sent you instructions on how to reset your password.
-        title: You &ldquo;Might&rdquo; Have Mail!
-      update_email: update email address
-      warning: "<strong>Surgeon Generals Warning:</strong> For security reasons, we can't tell you if an email address exists in our database or not. If you don't get an email from us, it's most likely because we don't have an account associated with that email address."
+        page_title: Ви "МОЖЛИВО" отримали електронного листа
+        subtitle: >
+          Якщо це профіль пов'язаний з <span class='fw7'>%{given_email}</span>
+          тоді ми надіслали Вам інструкції як скинути Ваш пароль.
+        title: Ви &ldquo;можливо&rdquo; отримали електронного листа!
+      update_email: змінити адресу електронної пошти
+      warning: >
+        <strong>Загальне попередження:</strong> З мірувань безпеки ми не можемо
+        повідомити Вам чи існує ця адреса електронної пошти в нашій базі даних.
+        Якщо Ви не отримали листа від нас, найвірогідніше, що не існує акаунта,
+        пов'язаного з цією адресою.
     mobile:
       5strike:
         return: повернутися на головну сторінку
-        subtitle: Shoot, for security reasons, you'll have to wait two hours before being able to try again.
+        subtitle: >
+          Мимо, з міркувань безпеки Вам потрібно зачекати дві години перед
+          наступною спробою.
         title: Правило п'яти спроб
-      cta: Send me Text Message
-      error_country_code: "<strong>Kinky Operator:</strong> Make sure you start your number with your country code: +1 for the US and Canada, +44 for the UK, +61 for Australia, +31 for Netherlands, +49 for Germany, +33 for France, etc."
-      error_quota: "<strong>Kinky Operator:</strong> Shoot, we can only try to send up to 3 text messages every 24 hours to any mobile number. If the number exists in our database or not."
-      pro_tip: "<strong>Pro Tip:</strong> Make sure you start your number with your country code: +1 for the US and Canada, +44 for the UK, +61 for Australia, +31 for Netherlands, +49 for Germany, +33 for France, etc."
+      cta: Надішліть мені ЫЬЫ
+      error_country_code: >
+        <strong>Розпусний оператор:</strong> Впевніться що Ваш номер
+        починаєеться з коду країни: +1 для США та Канади, +44 для
+        Великобританії, +31 для Голандії, +380 для України, +49 для Німеччини,
+        +33 для Франції, тощо
+      error_quota: >
+        <strong>Розпусний оператор:</strong> Мимо! Ми маємо змогу надсилати
+        лише 3 SMS на добу на той самий номер, незважаючи на те існує він в
+        нашій базі або ні.
+      pro_tip: >
+        <strong>Порада професионалу:</strong> Впевніться, що Ваш номер
+        починається з коду країни: +1 для США та Канади, +44 для
+        Великобританії, +31 для Голандії, +380 для України, +49 для Німеччини,
+        +33 для Франції, тощо
       step1:
-        page_title: Reset Password via Text Message
-        subtitle: Let me help you with that.
-        title: Forgot Password?
+        page_title: Скинути пароль за допопогою SMS
+        subtitle: Довзольте допомогти Вам з цим.
+        title: Забули пароль?
       step2:
-        cta: Verify You are You &#8482;
-        error_code_match: "<strong>Kinky Operator:</strong> Verification code you entered is incorrect. Verify that the number above matches what you received from us and please try again. This is a recording."
-        inexisting_number: If after a couple minutes you don't receive a text message from us, then it's probably because we don't have a profile attached to your number. We recommend you either <a href="%{forgot_password_email_path}">try resetting your password using another method</a> or <a href="%{signup_path}">setup a new profile on FetLife</a>.
-        label: 6-digit код підтвердження
-        page_title: Enter код підтвердження
-        subtitle: Please enter the 6-digit code we "might" have just sent to you at %{phone_number}.
-        title: Enter код підтвердження
-      warning: "<strong>Surgeon Generals Warning:</strong> For security reasons, we can't tell you if a mobile number exists in our database or not. If you don't get a text message from us, it's most likely because we don't have an account associated with that number."
-    next_step: next step
-    return_to_login: return to login
-    tab_email: Email
-    tab_mobile: Mobile
+        cta: Перевіряемо що Ви це саме Ви &trade;
+        error_code_match: >
+          <strong>Розпусний оператор:</strong> Ви ввели невірний код
+          верифікації. Перевірте що номер вище тотожний тому, що Ви отримали
+          від нас та спробуйте ще раз. Усі кроки записано.
+        inexisting_number: >
+          Якщо протягом кілька хвилин Ви не отримаєете SMS від нас це,
+          вірогідно, означає, що Ваш профіль не пов'язаний з цим номером.
+          Ми рекомендуємо Вам
+          <a href="%{forgot_password_email_path}">скористатися іншим
+          методом</a> скидання паролю, або <a href="%{signup_path}">створти
+          новий акаунт на FetLife</a>.
+        label: 6-значний код підтвердження
+        page_title: Введіть код підтвердження
+        subtitle: >
+          Будь ласка введить 6-значний код, що Ви "вірогідно",
+          щойно отримали на свій номер %{phone_number}.
+        title: Введіть код підтвердження
+      warning: >
+        <strong>Загальне попередження:</strong> З мірувань безпеки ми не
+        можемо повідомити Вам чи існує ця адреса електронної пошти в нашій
+        базі даних.  Якщо Ви не отримали листа від нас, найвірогідніше, що
+        не існує акаутна, пов'язаного з цією адресою.
+    next_step: наступний крок
+    return_to_login: повернутися до сторінки входу
+    tab_email: Електронна адреса
+    tab_mobile: Мобільный
   groups:
     new:
-      description_label: Description
-      description_placeholder: What's the group about?
-      loader_text: Oh no you didn't!
-      membership_restrictions_label: Restricted to
-      membership_restrictions_placeholder: ex. submissives...
-      membership_restrictions_sub_label: leave blank if open to everyone
-      name_label: Name
-      name_placeholder: What's the name of your group?
-      page_title: Start a New Group
-      return_to_groups_link_text: return to your groups
-      rules_label: Rules
-      rules_placeholder: What are the group's rules?
-      submit_button_text: Create my New Group
-      terms_and_conditions_community_guidelines_link: Community Guidelines
-      terms_and_conditions_group_leader_guidelines_link: Group Leader Guidelines
-      terms_and_conditions_terms_of_use_link: Terms of Use
-      title_description: A group is where kinksters can come together to share experiences, common interests, make plans, and more!
-      title_title: Create a New Group
+      description_label: Опис
+      description_placeholder: Про що ця група?
+      loader_text: Та невже?! Вам вдалося!
+      membership_restrictions_label: Обмежений тільки для
+      membership_restrictions_placeholder: наприклад сабмісіви…
+      membership_restrictions_sub_label: залиште порожнім якщо відкрите для всіх
+      name_label: Назва
+      name_placeholder: Яка назва Вашої групи?
+      page_title: Створити Нову Групу
+      return_to_groups_link_text: повернутися до Ваших груп
+      rules_label: Правила
+      rules_placeholder: Які правила цієї групи?
+      submit_button_text: Створити мою Нову Групу
+      terms_and_conditions_community_guidelines_link: Керівні принципи Спільноти
+      terms_and_conditions_group_leader_guidelines_link: >
+        Керівні принципи керівника групи
+      terms_and_conditions_terms_of_use_link: Умови використання
+      title_description: >
+        Група - це де кінкестри можуть зібратися, щоб поділитися досвідом,
+        спільними інтересами, скласти плани, тощо!
+      title_title: Створити Нову Групу
   guidelines:
     header: FetLife Guidelines & Legalese
     headers:
       community: Community Guidelines
       content: Content Guidelines
       group_leader: Group Leader Guidelines
+      values: Guiding Values
     last_updated: 'Last updated:'
     sections:
       guidelines:
@@ -140,6 +198,7 @@ ua:
       community: Community
       content: Content
       group_leader: Group Leader
+      values: Values
     title: Guidelines
   invite_a_friend:
     cancel_button: cancel
@@ -310,6 +369,8 @@ ua:
     page_title: Update Profile
     subtitle: Personal growth is a good thing.
     title: Your Profile
+    website_url_cant_be_blank: Website URL can't be blank
+    website_url_too_long: Website URL is too long (maximum is %{count} characters)
     websites_label: Websites
     websites_placeholder: https://fetlife.com
   settings_support:
@@ -327,52 +388,54 @@ ua:
     androidapp: Install FetLife Android App
     bug_bounty: Bug Bounty
     caretaking: Caretaker Tools
-    change_language: Change Language
+    change_language: Змінити мову
     close: close
     contact_us: Contact Us
-    edit_profile: Edit Profile
+    edit_profile: Редагувати особисті дані
     edit_settings: Update Settings
     events: Events
     fetishes: Fetishes
     following: Following
     fp: Fresh & Pervy
-    friends_and_following: Friends & Following
+    friends_and_following: Друзі та послідовники
     funny_quote: If you can read this, you have really good eye sight! - John 4:69
     gift_support: Gift FetLife Support
-    glossary: Glossary
-    groups: Groups
+    glossary: Словник
+    groups: Групи
     guidelines: Guidelines
-    home: Home
-    invite_a_friend: Invite a Friend (%{count})
+    home: Головна
+    invite_a_friend: Запросити друга (%{count})
     kp: Kinky & Popular
     legalese: Legalese
-    log_out: Log Out
-    login: Log In
+    log_out: Вийти
+    login: Увійти
     loved_stuff: Stuff You Love
-    need_help: Need Help?
+    need_help: Потрібна допомога?
     open_source: Open Source
     places: Places
     preservation_requests: Preservation Requests
     privacy: Privacy
     recommendations: Recommendations
-    signup: Join FetLife
+    signup: Приєднатися до FetLife
     subscriptions: Subscriptions
-    support: Support FetLife
+    support: Підтримати FetLife
     terms: Terms
-    upload_picture: Upload Picture
-    upload_video: Upload Video
-    videos: Videos
-    view_friends: View Friends
+    upload_picture: Завантажити зображення
+    upload_video: Завантажити відео
+    videos: Відео
+    view_friends: Переглянути друзів
     wallpapers: FetLife Wallpapers
-    whats_new: What's New
+    whats_new: Що нового
     write_post: Write Post
     writings: Writings
   signup:
-    almost_there: Almost There!
-    error_bar: Dallas, we have a problem. Scroll down for more info.
-    error_birthdate: Date of birth is required.
-    error_birthdate_too_old: You are too old.
-    error_birthdate_too_young: Sorry, you must be 18 or older to join.
+    almost_there: Майже готово!
+    error_bar: Даллас, в нас є проблеми. Додаткову інформацію дивіться нижче.
+    error_bar_invalid_credentials: Looks like your Nickname, Email or Password is incorrect, please try again!
+    error_birthdate: Дата народження обов'язково потрібна.
+    error_birthdate_too_old: Ви занадто старі.
+    error_birthdate_too_young: Вибачте, але Вам потрібно досягти повноліття (18 років) щоб приєднатися.
+    error_birthdate_too_young_on_update: Sorry, you must be 18 or older to use FetLife
     error_city_missing: City has to be selected.
     error_country_missing: Country has to be selected.
     error_email: We're having problems processing the above email address. We recommend you verify the spelling or try a different one.
@@ -422,9 +485,9 @@ ua:
     title: Anyone Catch Your Eye?
   signup_phone:
     cta: Надішліть мені код підтвердження
-    error_blocked: "<strong>Kinky Operator:</strong> Unfortunately, we currently don't allow people to signup using a %{carrier_name} number."
-    error_cant_send: "<strong>Kinky Operator:</strong> We're having problems sending you a text message. Make sure you start your number with your country code: +1 for the US and Canada, +44 for the UK, +61 for Australia, +31 for Netherlands, +49 for Germany, +33 for France, etc. and that you are not trying to send a text message to your landline."
-    error_quota: "<strong>Kinky Operator:</strong> We can't send more than 3 text messages to the same number in a 24 hour period. Please try again later."
+    error_blocked: "<strong>Розпусний оператор:</strong> Unfortunately, we currently don't allow people to signup using a %{carrier_name} number."
+    error_cant_send: "<strong>Розпусний оператор:</strong> We're having problems sending you a text message. Make sure you start your number with your country code: +1 for the US and Canada, +44 for the UK, +61 for Australia, +31 for Netherlands, +49 for Germany, +33 for France, etc. and that you are not trying to send a text message to your landline."
+    error_quota: "<strong>Розпусний оператор:</strong> We can't send more than 3 text messages to the same number in a 24 hour period. Please try again later."
     explanation: We know it's a lot to ask, but to maintain a healthy and vibrant community, we need to verify everyone before they join. Something we think you will appreciate once you are on the other side.
     label: Mobile Phone Number
     page_title: Надіслати код підтвердження
@@ -433,7 +496,7 @@ ua:
     title: Verification Time!
   signup_verify:
     cta: Complete Signup & Verification
-    incorrect_code: "<strong>Kinky Operator:</strong> Doh&hellip; the verification code you entered seems off. Please verify that the number above matches what you received from us and try again."
+    incorrect_code: "<strong>Розпусний оператор:</strong> Doh&hellip; the verification code you entered seems off. Please verify that the number above matches what you received from us and try again."
     label: код підтвердження
     notice: We sent the verification code to <strong>%{phone_number}</strong>. If after a couple minutes you don't receive a text message from us, <a class="silver" href="%{back_path}">update your number and we'll send you a new verification code</a>.
     page_title: Введіть код підтвердження
@@ -488,6 +551,7 @@ ua:
     cta_labels:
       ach: Bank Transfer (ACH)
       cc_curo: Credit Card
+      cc_trustpay: Credit Card
       coingate: Bitcoin
       eps: EPS
       giropay: giropay
@@ -537,7 +601,7 @@ ua:
       renew_q: Q. Do you automatically renew my support?
       return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Bitcoin, or Paysafecard, due to the nature of how they work, they are final sale.
       return_q: Q. What’s your return policy?
-      secure_a: Yes, very. FetLife doesn’t store any of your personal info on our servers.  We just use the info you provide us to process your transaction and that's it.
+      secure_a: Yes, very. FetLife doesn’t store any of your personal info on our servers. We just use the info you provide us to process your transaction and that's it.
       secure_q: Q. Is this secure?
       title: Frequently Asked Questions
     gift:
@@ -557,6 +621,9 @@ ua:
         title: US Bank Transfer (ACH)
       cc_curo:
         extra_info: We accept Visa, V Pay, Mastercard, and Maestro. It's easy and secure.
+        title: Credit Card
+      cc_trustpay:
+        extra_info: We accept Visa and Mastercard. It's easy and secure.
         title: Credit Card
       coingate:
         extra_info: Bitcoin is not as complicated as it sounds. And for the uninitiated, we will hold your hand through the process.
@@ -652,6 +719,11 @@ ua:
       last_name_sub_label: пов'язана з кредитною карткою
       secure: Безпечно як у Форт Кнокс and we don't store any of your personal information.
       title: Credit Card Payment
+    step3_cc_trustpay:
+      cta: Support FetLife via Credit Card
+      pay_button: Support FetLife via Credit Card
+      secure: Secure as Fort Knox and we don't store any of your personal information.
+      title: Credit Card Payment
     step3_coingate:
       cta: Support FetLife via Bitcoin
       intro: 'Bitcoin is a digital currency. Some intro videos we enjoyed watching:'
@@ -741,36 +813,36 @@ ua:
       title: Buy a Prepaid Paysafecard
       where: Where can I buy a paysafecard?
     step3_poli:
-      address_label: Address
+      address_label: Адреса
       address_sub_label: пов'язана з банківським рахунком
-      city_label: City
-      city_sub_label: пов'язана з банківським рахунком
-      country_label: Country
-      country_placeholder: Country
+      city_label: Місто
+      city_sub_label: пов'язанe з банківським рахунком
+      country_label: Країна
+      country_placeholder: Країна
       country_sub_label: пов'язана з банківським рахунком
       cta: Make POLi Payment
       first_name_label: Ім'я
-      first_name_sub_label: пов'язана з банківським рахунком
+      first_name_sub_label: пов'язане з банківським рахунком
       last_name_label: Прізвище
-      last_name_sub_label: пов'язана з банківським рахунком
+      last_name_sub_label: пов'язане з банківським рахунком
       postal_code_label: Поштовий індекс
-      postal_code_sub_label: пов'язана з банківським рахунком
+      postal_code_sub_label: пов'язаний з банківським рахунком
       secure: Безпечно як у Форт Кнокс and we don't store any of your personal information.
       state_label: State / Province
       state_sub_label: пов'язана з банківським рахунком
       title: POLi Payment
     step3_przelewy:
-      address_label: Address
+      address_label: Адреса
       address_sub_label: пов'язана з банківським рахунком
-      city_label: City
-      city_sub_label: пов'язана з банківським рахунком
+      city_label: Місто
+      city_sub_label: пов'язане з банківським рахунком
       cta: Make Przelewy24 Payment
       first_name_label: Ім'я
-      first_name_sub_label: пов'язана з банківським рахунком
+      first_name_sub_label: пов'язане з банківським рахунком
       last_name_label: Прізвище
-      last_name_sub_label: пов'язана з банківським рахунком
+      last_name_sub_label: пов'язане з банківським рахунком
       postal_code_label: Поштовий індекс
-      postal_code_sub_label: пов'язана з банківським рахунком
+      postal_code_sub_label: пов'язаний з банківським рахунком
       secure: Безпечно як у Форт Кнокс and we don't store any of your personal information.
       title: Przelewy24 Payment
     step3_sepa:
@@ -779,51 +851,51 @@ ua:
       bic_label: BIC / SWIFT Code
       bic_placeholder: Bank Identifier Code
       bic_sub_label: 8 or 11 characters long
-      city_label: City
-      city_sub_label: пов'язана з банківським рахунком
-      country_label: Country
-      country_placeholder: Country
+      city_label: Місто
+      city_sub_label: пов'язане з банківським рахунком
+      country_label: Країна
+      country_placeholder: Країна
       country_sub_label: пов'язана з банківським рахунком
-      cta: Support FetLife Now
+      cta: Підтримати FetLife зараз
       first_name_label: Ім'я
-      first_name_sub_label: пов'язана з банківським рахунком
+      first_name_sub_label: пов'язане з банківським рахунком
       iban_label: IBAN
-      iban_placeholder: International Bank Account Number
-      iban_sub_label: up to 34 alphanumeric characters
+      iban_placeholder: Номер міжнародного банківського рахунку
+      iban_sub_label: не більше 34 букв або цифр
       last_name_label: Прізвище
-      last_name_sub_label: пов'язана з банківським рахунком
+      last_name_sub_label: пов'язане з банківським рахунком
       postal_code_label: Поштовий індекс
-      postal_code_sub_label: пов'язана з банківським рахунком
+      postal_code_sub_label: пов'язаний з банківським рахунком
       secure: Безпечно як у Форт Кнокс and we don't store any of your personal information.
-      title: SEPA Payment Information
+      title: Інформація про сплату SEPA
     step3_teleingreso:
-      address_label: Address
+      address_label: Адреса
       address_sub_label: пов'язана з банківським рахунком
-      city_label: City
-      city_sub_label: пов'язана з банківським рахунком
-      cta: Make Teleingreso Payment
+      city_label: Місто
+      city_sub_label: пов'язане з банківським рахунком
+      cta: Заплатити з Teleingreso
       first_name_label: Ім'я
-      first_name_sub_label: пов'язана з банківським рахунком
+      first_name_sub_label: пов'язане з банківським рахунком
       last_name_label: Прізвище
-      last_name_sub_label: пов'язана з банківським рахунком
+      last_name_sub_label: пов'язане з банківським рахунком
       postal_code_label: Поштовий індекс
-      postal_code_sub_label: пов'язана з банківським рахунком
+      postal_code_sub_label: пов'язаний з банківським рахунком
       secure: Безпечно як у Форт Кнокс and we don't store any of your personal information.
-      title: Teleingreso Payment
+      title: Оплата Teleingreso
     thank_you:
       body: No seriously, <span>a big thank you for your support</span>. It means a lot to us that you've contributed your hard earned money to help support FetLife’s continued improvement and development.
-      cta_home: Take Me Home
-      gift_affirm: You're the best!
-      gift_cta_profile: Visit %{nickname}'s Profile
+      cta_home: Повернути мене на головнку сторінку
+      gift_affirm: Ви найкращі!
+      gift_cta_profile: Переглянути профіль %{nickname}
       gift_next_body: While you're reading this we are giving your gift of support to <a href="%{link}">%{nickname}</a> and notifying them via email of your generous gift.
-      gift_next_title: What's next?
+      gift_next_title: Що далі?
       page_title: Дякуємо!
-      questions_body: If you have any questions, please don’t hesitate to email us at <a href='mailto:support@fetlife.com'>support@fetlife.com</a>.
-      questions_title: Got Questions?
+      questions_body: Якщо у Вас виникли будь-які питання, будь ласка, не соромьтесь надіслати нам їх за адресою <a href='mailto:support@fetlife.com'>support@fetlife.com</a>.
+      questions_title: Є питання?
       tab_title: Дякуємо
-      thank_you: Thanks Again!
+      thank_you: Ще раз дякуємо!
     thank_you_interac:
-      cta_home: Take Me to My Feed
+      cta_home: Повернути мене до моєї стрічки
       next_steps_final_default: will attach it to your profile and notify you.
       next_steps_final_gift: will attach it to %{nickname}'s profile.
       next_steps_first: It can <span>take a couple of hours</span> before we receive your Interac e-Transfer, but once we get it we
@@ -831,4 +903,4 @@ ua:
       page_title: Дякуємо <span class='baskerville i'>&amp;</span> Наступні кроки
       tab_title: Дякуємо & Наступні кроки
       thank_you: Дякуємо!
-    title: Help Support FetLife!
+    title: Допомогти підтримати FetLife!
