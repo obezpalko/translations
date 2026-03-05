@@ -12,22 +12,10 @@ zh:
     subtitle: 给我来个两步验证吧！
     title: 安全码
   about:
-    contact_info: 联系方式
-    email_us: 请发邮件至 <a href="mailto:support@fetlife.com">support@fetlife.com</a>，我们会尽快回复——就像抹了润滑油一样快!
-    europe: 欧洲
-    got_question: 有疑问？需要帮助？
-    north_america: 北美
-    one_love: 一生一爱情，还有非常大量的怪癖。
-    snail_mail: 老派邮件地址
     sub_header: 不，不是斯巴达
     title: 我们・是・FetLife！
   components:
     step: 步骤
-  edit_profile:
-    sidebar_questions:
-      pics_and_vids_discoverability_a: 当有人使用FetLife搜索时，你的怪癖照片和视频只会被朋友和粉丝看到。如果你想对其他FetLife使用者可见，请更新你的隐私设置。
-      pics_and_vids_discoverability_link: 访问设置
-      pics_and_vids_discoverability_q: 保持私密
   feed:
     comment: 评论
     comments_count:
@@ -37,7 +25,6 @@ zh:
       button: 发表
       placeholder: 你想说点啥？
     love: 大赞
-    loved_hover: 伤心了！:-(
     loves_count:
       one: 一个赞
       other: "%{count_with_delimiter} 个赞"
@@ -52,7 +39,6 @@ zh:
   footer:
     advertising: 广告
     contact: 联系我们
-    glossary: 术语表
     help: 帮助
     privacy: 隐私
   forgot_password:
@@ -118,31 +104,11 @@ zh:
       terms_and_conditions_terms_of_use_link: 用户协议
       title_description: 一个让变态们分享经验，交流爱好，制定计划等等的地方！
       title_title: 创建新的小组
-  guidelines:
-    header: FetLife 指南与守则
-    headers:
-      community: 社区守则
-      content: 内容守则
-      group_leader: 小组管理员守则
-      values: Guiding Values
-    last_updated: 最近更新于：
-    sections:
-      guidelines:
-        description: 为保证每个人都能享受 FetLife，我们请求所有用户遵守我们的内容、社群及小组守则。
-        title: 守则
-      legalese:
-        description: 此部分为所有用户注册 FetLife 时所同意的使用条款。我们已让其尽可能简洁明了。
-        title: 条款
-      privacy:
-        description: FetLife 怎样保护你的数据安全？在 FetLife，我们如同对待自己的数据一样保护你的数据隐私。
-        title: 隐私
-    subheader: 你能在这里看到我们的网站守则、法律信息以及隐私政策。
-    subnav:
-      community: 社群
-      content: 内容
-      group_leader: 小组管理员
-      values: Values
-    title: 守则
+  header:
+    friendship_requests_count: Friendship Requests (%{count})
+    inbox_count: Inbox (%{count})
+    notifications_count: Notifications (%{count})
+    post_new: Post Something New
   invite_a_friend:
     cancel_button: 取消
     cancel_notice: 发给 %{email} 的邀请已被撤销。
@@ -165,24 +131,8 @@ zh:
     title_step2: 邀请已发送
     view_invitations: 查看你发出的邀请
   landing_page:
-    login_button: 登录 FetLife
     signup_button: 注册 FetLife
-    stats_details: 在此分享 <strong class="fw4 silver">%{picture_count} 张图片</strong>、<strong class="fw4 silver">%{video_count} 部视频</strong>、在 <strong class="fw4 silver">%{group_count} 个小组中</strong>参与 <strong class="fw4 silver">%{discussion_count} 次讨论</strong>，并前往 <strong class="fw4 silver">%{event_count} 次即将举办的线下活动</strong>，还在阅读 <strong class="fw4 silver">%{post_count} 篇博文</strong>。<span><span class="i">Kink の天堂！</span>
-    stats_members: 名会员
-    subtitle: 有点像 Facebook，但是是如你我一样的性癖者在运作。我们觉得这有意思多了，不是吗？
     title: FetLife 是属于 BDSM、恋物及其它性癖者社群的社交网络。
-  legalese:
-    headers:
-      2257_exempt: 2257 豁免条款
-      legal_requests: 法务请求
-      privacy_policy: 隐私政策
-      terms_of_use: 使用条款
-    subnav:
-      2257_exempt: 2257 豁免条款
-      legal_requests: 法务请求
-      privacy: 隐私政策
-      terms: 使用条款
-    title: 法律事宜
   lockout:
     subtitle: 你触发了我们的安全系统。
     title: 保安！安保！保卫！快来！
@@ -222,14 +172,17 @@ zh:
     events: 线下活动
     explore: 发现
     fetishes: 癖好
+    fetlife_status: Status FetLife
     groups: 小组
     home: 首页
+    menu: Menu
+    menu_title: Show navigation menu
+    more: More
+    more_title: Navigate elsewhere
     places: 地方
     search_placeholder: 搜索 FetLife
     videos: 视频
     writings: 写作
-  page_break:
-    of: of
   privacy:
     title: 隐私
   profile:
@@ -325,20 +278,22 @@ zh:
     title: 更改邮件地址
   sidebar:
     about_fetlife: 关于 Fetlife
-    ad_stats: 广告统计
+    account_settings: Account Settings
     advertisers: All Advertisers
     advertising: 广告
     already_member: 已经注册过？
     androidapp: 安装 FetLife Android 应用
+    become_verified: Become Verified!
     bug_bounty: 悬赏 Bug
     careers: Careers
-    caretaking: 社区管理工具
     change_language: 更改语言
     close: 关闭
     contact_us: 联系我们
+    content_guidelines: Content Guidelines
     edit_profile: 更改资料
     edit_settings: 更改设置
     events: 线下活动
+    exempt: 2257 Exempt
     fetishes: 癖好
     following: 我关注的
     formatting: Formatting Guidelines
@@ -346,31 +301,49 @@ zh:
     friends_and_following: Friends & Following
     funny_quote: 如果你看不清的话……你大约需要眼镜了！——约翰福音 4:69
     gift_support: 送别人「FetLife 赞助会员」
-    glossary: 术语表
     groups: 小组
     guidelines: 守则
+    guiding_values: Guiding Values
     home: 首页
     invite_a_friend: 邀请好友（%{count}）
+    invites: Invites
     kp: 众心所癖
+    legal_requests: Legal Request
     legalese: 法律事宜
     log_out: 登出
     login: 登录
     loved_stuff: 你赞过的东西
     need_help: 需要帮助？
+    new_status: Post Status Update
+    new_writing: New Writing
+    noification_preferences: Notification Preferences
     open_source: 开源
     places: 地方
-    preservation_requests: 保全请求
     privacy: 隐私
+    privacy_options: Privacy Options
     privacy_policy: Privacy Policy
+    pwa: Add FetLife to Home Screen
     recommendations: 推荐
+    show_account_menu: Show Account Menu
     signup: 注册
-    subscriptions: 订阅
     support: 赞助 FetLife
     terms: 条款
+    title:
+      about_fetlife: About FetLife
+      community: Community
+      legalese: Legalese
+      need_help: Need Help?
+    transparency: Transparency
+    trust_and_safety: Trust & Safety
+    upcoming_events: Upcoming Events
     upload_picture: 上传图片
     upload_video: 上传视频
+    verification_pending: Profile Verification Pending
+    verify_profile: Verify Profile
     videos: 视频
     view_friends: 查看好友列表
+    view_profile: view profile
+    view_terms: View Terms of Use
     wallpapers: FetLife 壁纸
     whats_new: 有啥新鲜的
     write_post: 写文章
@@ -396,8 +369,9 @@ zh:
     error_password_required: 密码必填。
     error_role_required: 角色必选。
     error_sexual_orientation_required: 性取向必选。
+    error_orientation_required: Orientation has to be selected.
     error_state_missing: 省份/州份必选。
-    footnote: 点击「完成注册认证」代表你同意我们的<a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">使用守则</a>、<a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">隐私政策</a>和<a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">社区守则</a>。
+    footnote: By clicking "Complete Signup & Verify Email" you agree to respect and follow our <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Terms of Use</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Privacy Policy</a>, and <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Community Guidelines</a>.
     label:
       birthdate: 出生日期
       city: 城市
@@ -409,6 +383,7 @@ zh:
       password: 密码
       role: 角色
       sexual_orientation: 性取向
+      orientation: Orientation
       state: 省份/州份
     page_title: 加入
     return_to_login: 已是注册用户？立刻登录 FetLife
@@ -442,44 +417,14 @@ zh:
     subtitle: 一次性匿名短信。
     title: 到短信验证的时候了！
   signup_verify:
-    cta: 完成注册认证
+    cta: Submit Verification Code
     incorrect_code: "<strong>亲爱的小变态：</strong>呃&hellip; 上面这个验证码似乎是错的。请再检查一下它是否和你收到的验证码一致再重试。"
-    label: 验证码
+    label: Enter the 6-digit code we just sent to your mobile phone.
     notice: 我们已将验证码发送至 <strong>%{phone_number}</strong>。如果过了好一会儿你还没收到短信，<a class="silver" href="%{back_path}">换个号码试试重新发送</a>。
     page_title: 输入验证码
     placeholder: 6 位验证码
     subtitle: 有点蛋疼，对吧？！
-    title: 最后一步
-  subnav:
-    feed:
-      activity_feed: 动态
-      activity_feed_short: 首页
-      fp: 鲜嫩多汁
-      fp_short: 鲜嫩多汁
-      kp: 众心所癖
-      kp_short: 众心所癖
-    profile:
-      about: 关于我
-      about_short: 关于
-      latest: 最近动态
-      latest_short: 最近
-      pictures: 图片
-      pictures_short: 图
-      videos: 视频
-      videos_short: 视频
-      writings: 写作
-      writings_short: 写作
-    settings:
-      account: 账户
-      account_short: 账户
-      notifications: 通知
-      notifications_short: 通知
-      privacy: 隐私
-      privacy_short: 隐私
-      profile: 资料
-      profile_short: 资料
-      support: 赞助
-      support_short: 赞助
+    title: 到短信验证的时候了！
   support:
     benefits:
       item_1: 你的资料页上会有一个性感的 <span>I Support FetLife</span> 图标。
@@ -487,12 +432,13 @@ zh:
       item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
       item_3: 观看社区里分享的<span>全部 %{number}+ 部视频</span>。
       item_4: 随意查看<span>全部 %{number}+ 张用户分享的图片</span>。
-      item_5: 查看<span>你赞过的所有东西</span>。
+      item_5: View <span>everything you’ve ever loved and bookmarked</span>.
       item_6: 好友动态可向前滚动的历史变长<span>25 倍</span>。
       item_7: "@你的动态可向前滚动的历史变长<span>25 倍</span>。"
       item_8: 如你所愿<span>自定义你的动态页</span>。
       item_9: Option to <span>hide inline ads</span> on mobile.
       list_description: 每月只要 $5 美元，除了支持 FetLife 的开发维护外，你还能：
+      list_description_exp: 每月只要 $5 %{currency}，除了支持 FetLife 的开发维护外，你还能：
       list_footer: 比一瓶润滑剂还便宜呢……不过我们还是不建议你用菜籽油来代替润滑剂……不是那么好用。
       thank_you: 没有你的赞助，就没有 FetLife。FetLife 大家庭忠心向你表示感谢！
       title: 赞助 FetLife 我能得到啥？
@@ -547,10 +493,15 @@ zh:
       question_q: Q. Have any questions?
       renew_a: Never. We want to earn your support everytime.
       renew_q: Q. Do you automatically renew my support?
-      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Cryptocurrency, or Paysafecard, due to the nature of how they work, they are final sale.
+      return_a_part_1: We offer a 7-day money back guarantee!
+      return_a_part_2: 'Unfortunately though, due to the nature of the following payment methods, we can''t issue refunds and all payments using these methods will be final sale: Gift Card Trade-IN, POLi, Cryptocurrency, and Paysafecard.'
+      return_a_part_3: Refunds are limited to one per person.
       return_q: Q. What’s your return policy?
       secure_a: Yes, very. FetLife doesn’t store any of your personal info on our servers.  We just use the info you provide us to process your transaction and that's it.
       secure_q: Q. Is this secure?
+      interac_q: Q. What currency is FetLife support billed in?
+      interac_a: |
+        All Support payments are billed in US$, with one exception: Canadian Interac e-Transfer, which is billed in CAN$.
       title: Frequently Asked Questions
     gift:
       affirm: You're the best!
@@ -570,12 +521,12 @@ zh:
       cc_curo:
         extra_info: We accept Visa, V Pay, Mastercard, and Maestro. It's easy and secure.
         title: Credit Card
-      cc_trustpay:
-        extra_info: We accept Visa and Mastercard. It's easy and secure.
-        title: Credit Card
       coingate:
-        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
+        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, and XRP.
         title: Cryptocurrency
+      curo_sepa:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports SEPA in Europe.
+        title: European Bank Transfer (SEPA)
       eps:
         extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports EPS in Austria.
         title: Austrian Bank Transfer (EPS)
@@ -594,7 +545,7 @@ zh:
         title: Physical Mail
       more_options: show me more options
       paygarden:
-        extra_info: Trade-in gift cards from 100+ brands including Starbucks, Best Buy, Target, Walmart, Home Depot, and Build-A-Bear.
+        extra_info: Trade-in gift cards from 100+ brands including Best Buy, Target, Walmart, and Home Depot.
         title: Major Brand Gift Card Trade-In
       paysafe:
         extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
@@ -621,14 +572,22 @@ zh:
       30_title: "$30 for 6 Months"
       60_info: "$5/month"
       60_title: "$60 for 12 Months"
+      120_info_exp: "$5 %{currency}/month"
+      120_title_exp: "$120 %{currency} for 24 Months"
+      240_info_exp: "<i>Priceless</i>"
+      240_title_exp: "$240 %{currency} for Lifetime!"
+      30_info_exp: "$5 %{currency}/month"
+      30_title_exp: "$30 %{currency} for 6 Months"
+      60_info_exp: "$5 %{currency}/month"
+      60_title_exp: "$60 %{currency} for 12 Months"
       return_info: 7-day no questions asked money back guarantee.
       title: How much do you love FetLife?
     step2_paygarden:
       confirm: I Have a Gift Card I Want to Trade for Support
-      list_footer: and <a href='%{link}'>100s of other major brands.</a>
+      list_footer: and <a href='%{link}' target="_blank">100s of other major brands.</a>
       list_header: We Accept Gift Cards From
       secure: Secure as Fort Knox
-      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Starbucks or Targets US online stores.
+      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Targets US online stores.
       tips_header: Tips &amp; Tricks
       title: Buy a Gift Card from a Major Brand
     step3_ach:
@@ -730,13 +689,14 @@ zh:
       secure: Secure as Fort Knox and we don't store any of your personal information.
       title: iDEAL Payment
     step3_interac:
-      amount: 'Amount:'
-      answer_label: 'Answer:'
+      amount: Amount
+      answer_label: Answer
       answer_placeholder: Answer
       cta: I've Sent the Interac e-Transfer
-      question_label: 'Security Question:'
+      message: Message
+      question_label: Security Question
       question_placeholder: Security Question
-      send: 'Send to:'
+      send: Send to
       thank_you: Thank You!
       title: Send Interac e-Transfer
     step3_mail:

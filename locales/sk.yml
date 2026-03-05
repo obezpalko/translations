@@ -12,22 +12,10 @@ sk:
     subtitle: 2-Factor me baby!
     title: Tajný kód
   about:
-    contact_info: Kontaktné informácie
-    email_us: Kontaktuj nás na <a href="mailto:support@fetlife.com">support@fetlife.com</a> a my sa ti ozveme v okamihu! Snáď!
-    europe: Európa
-    got_question: Máš otázku? Potrebuješ pomoc?
-    north_america: Severná Amerika
-    one_love: Jedna láska, jeden život a plno úchylností.
-    snail_mail: Pošta
     sub_header: Nemýliť so Sparťanmi.
     title: My. Sme. FetLife!
   components:
     step: Step
-  edit_profile:
-    sidebar_questions:
-      pics_and_vids_discoverability_a: Through FetLife’s search, your pics and vids are only findable by friends and followers. If you want other FetLifers to discover your kinkalicious pics and vids, you can update your privacy settings.
-      pics_and_vids_discoverability_link: Go to settings
-      pics_and_vids_discoverability_q: Pics and vid discoverability
   feed:
     comment: Komentovať
     comments_count:
@@ -38,8 +26,9 @@ sk:
       button: Zdielať
       placeholder: Čo máš na mysli?
     love: Ľúbi sa mi to
-    loved_hover: Lámač sŕdc! :-(
     loves_count:
+      few: "%{count_with_delimiter} členom sa to ľúbi"
+      many: "%{count_with_delimiter} členom sa to ľúbi"
       one: 1 členovi sa to ľúbi
       other: "%{count_with_delimiter} členom sa to ľúbi"
     modal:
@@ -53,7 +42,6 @@ sk:
   footer:
     advertising: Advertising
     contact: Contact Us
-    glossary: Glossary
     help: Pomoc
     privacy: Privacy
   forgot_password:
@@ -119,31 +107,11 @@ sk:
       terms_and_conditions_terms_of_use_link: Terms of Use
       title_description: A group is where kinksters can come together to share experiences, common interests, make plans, and more!
       title_title: Create a New Group
-  guidelines:
-    header: FetLife Guidelines & Legalese
-    headers:
-      community: Community Guidelines
-      content: Content Guidelines
-      group_leader: Group Leader Guidelines
-      values: Guiding Values
-    last_updated: 'Naposledy aktualizovné:'
-    sections:
-      guidelines:
-        description: To help make FetLife a fun place for everyone, we kindly ask everyone to follow our Content, Community, and Group guidelines.
-        title: Guidelines
-      legalese:
-        description: This section contains the Terms of Use all members agree to when they sign up for FetLife. We've tried to keep things as simple and clear as possible!
-        title: Legalese
-      privacy:
-        description: How secure is your data and what is FetLife doing to safeguard it? At FetLife, we treat your data how we'd like ours treated.
-        title: Privacy
-    subheader: You'll find our site guidelines, legal documentation, and privacy policy here.
-    subnav:
-      community: Komunita
-      content: Obsah
-      group_leader: Líder skupiny
-      values: Values
-    title: Pravidlá
+  header:
+    friendship_requests_count: Friendship Requests (%{count})
+    inbox_count: Inbox (%{count})
+    notifications_count: Notifications (%{count})
+    post_new: Post Something New
   invite_a_friend:
     cancel_button: zrušiť
     cancel_notice: Pozvánka pre %{email} bola zrušená.
@@ -167,24 +135,8 @@ sk:
     title_step2: Pozvánka odoslaná
     view_invitations: Zobraziť pozvánky
   landing_page:
-    login_button: Prihlásiť sa na FetLife
     signup_button: Registrovať sa na FetLife
-    stats_details: zdieľa <strong class="fw4 silver">%{picture_count} fotiek</strong> a <strong class="fw4 silver">%{video_count} videii</strong>, účastnia sa v <strong class="fw4 silver">%{discussion_count} diskusiách</strong> v <strong class="fw4 silver">%{group_count} skupinách</strong>, idú na <strong class="fw4 silver">%{event_count} nadchádzajúcich udalostí</strong>, a čítajú <strong class="fw4 silver">%{post_count} blog príspevkov</strong>. <span><span class="i">Nebo pre kinksterov!</span>
-    stats_members: členov
-    subtitle: Ako Facebook, ale plný kinksterov, ako si ty a my. Myslíme si, že je to viac zábavy touto cestou. Čo myslíš?.
     title: FetLife je sociálna sieť pre BDSM, Fetish & Kinky komunitu.
-  legalese:
-    headers:
-      2257_exempt: 2257 Exempt
-      legal_requests: Legal Requests
-      privacy_policy: Privacy Policy
-      terms_of_use: Terms of Use
-    subnav:
-      2257_exempt: 2257 Exempt
-      legal_requests: Legal Requests
-      privacy: Ochrana súkromia
-      terms: Podmienky používania
-    title: Legislatíva
   lockout:
     subtitle: You've tripped our security system.
     title: Security, Security, Security!
@@ -227,14 +179,17 @@ sk:
     events: Udalosti
     explore: Objavuj
     fetishes: Fetiše
+    fetlife_status: Status FetLife
     groups: Skupiny
     home: Domov
+    menu: Menu
+    menu_title: Show navigation menu
+    more: More
+    more_title: Navigate elsewhere
     places: Miesta
     search_placeholder: Hľadať
     videos: Videos
     writings: Writings
-  page_break:
-    of: z
   privacy:
     title: Privacy
   profile:
@@ -330,20 +285,22 @@ sk:
     title: Aktualizovať emailovú adresu
   sidebar:
     about_fetlife: O Fetlife
-    ad_stats: Reklamné Štatistiky
+    account_settings: Account Settings
     advertisers: All Advertisers
     advertising: Reklamné služby
     already_member: Already a member?
     androidapp: Install FetLife's Android App
+    become_verified: Become Verified!
     bug_bounty: Odmena za nahlásené chyby
     careers: Careers
-    caretaking: Správcovia
     change_language: Zmeniť jazyk
     close: zatvoriť
     contact_us: Contact Us
+    content_guidelines: Content Guidelines
     edit_profile: Upraviť profil
     edit_settings: Upraviť nastavenia
     events: Udalosti
+    exempt: 2257 Exempt
     fetishes: Fetiše
     following: Sledované
     formatting: Formatting Guidelines
@@ -351,31 +308,49 @@ sk:
     friends_and_following: Friends & Following
     funny_quote: Ak nevieš prečítať toto... tak potrebuješ okuliare! - Ján 4:69
     gift_support: Daruj FetLife predplatné
-    glossary: Glossary
     groups: Skupiny
     guidelines: Pravidlá
+    guiding_values: Guiding Values
     home: Domov
     invite_a_friend: Pozvať priateľa (%{count})
+    invites: Invites
     kp: Kinky & Popular
+    legal_requests: Legal Request
     legalese: Legislatíva
     log_out: Odhlásiť
     login: Login
     loved_stuff: Stuff You Love
     need_help: Potrebuješ pomoc?
+    new_status: Post Status Update
+    new_writing: New Writing
+    noification_preferences: Notification Preferences
     open_source: Open Source
     places: Miesta
-    preservation_requests: Preservation Requests
     privacy: Privacy
+    privacy_options: Privacy Options
     privacy_policy: Privacy Policy
+    pwa: Add FetLife to Home Screen
     recommendations: Odporúčania
+    show_account_menu: Show Account Menu
     signup: Signup
-    subscriptions: Subscriptions
     support: Podpor FetLife
     terms: Terms
+    title:
+      about_fetlife: About FetLife
+      community: Community
+      legalese: Legalese
+      need_help: Need Help?
+    transparency: Transparency
+    trust_and_safety: Trust & Safety
+    upcoming_events: Upcoming Events
     upload_picture: Nahraj fotku
     upload_video: Nahraj video
+    verification_pending: Profile Verification Pending
+    verify_profile: Verify Profile
     videos: Videos
     view_friends: Zobraz priateľov
+    view_profile: view profile
+    view_terms: View Terms of Use
     wallpapers: FetLife Wallpapers
     whats_new: Čo nové?
     write_post: Napísať príspevok
@@ -401,8 +376,9 @@ sk:
     error_password_required: Heslo je povinné.
     error_role_required: Rola je povinná.
     error_sexual_orientation_required: Sexuálna orientácia je povinná.
+    error_orientation_required: Orientation has to be selected.
     error_state_missing: Kraj je povinný.
-    footnote: By clicking "Dokonči registráciu a verifikáciu" you agree to respect and follow our <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Terms of Use</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Privacy Policy</a>, and <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Community Guidelines</a>.
+    footnote: By clicking "Complete Signup & Verify Email" you agree to respect and follow our <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Terms of Use</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Privacy Policy</a>, and <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Community Guidelines</a>.
     label:
       birthdate: Dátum narodenia
       city: Mesto
@@ -414,6 +390,7 @@ sk:
       password: Heslo
       role: Rola
       sexual_orientation: Sexuálna orientácia
+      orientation: Orientation
       state: Kraj
     page_title: Pridaj sa k nám
     return_to_login: Already a member? Login to FetLife
@@ -447,44 +424,14 @@ sk:
     subtitle: Jednorázová anonymná správa.
     title: Čas na verifikáciu!
   signup_verify:
-    cta: Dokonči registráciu a verifikáciu
+    cta: Submit Verification Code
     incorrect_code: "<strong>Kinky Operátor:</strong> Oh&hellip; zadaný verifikačný kód nie je spravný. Prosím skontroluj kód a skús znova."
-    label: Verfikačný kód
+    label: Enter the 6-digit code we just sent to your mobile phone.
     notice: Poslali sme ti verifikačný kód na <strong>%{phone_number}</strong>. Ak do pár minút od nás neobdržíš SMS, <a class="silver" href="%{back_path}">aktualizuj svoje číslo a my ti pošleme nový verfikačný kód</a>.
     page_title: Zadaj verfikačný kód
     placeholder: 6-miestny verfikačný kód
     subtitle: Nebolo to také bolestivé, že nie?!?!
-    title: Posledný krok
-  subnav:
-    feed:
-      activity_feed: Novinky
-      activity_feed_short: Novinky
-      fp: Fresh<span class="a-ampersand">&amp;</span>Pervy
-      fp_short: Fresh
-      kp: Kinky<span class="a-ampersand">&amp;</span>Popular
-      kp_short: Popular
-    profile:
-      about: O mne
-      about_short: O mne
-      latest: Posledná aktivita
-      latest_short: Aktivita
-      pictures: Fotky
-      pictures_short: Fotky
-      videos: Videá
-      videos_short: Videá
-      writings: Články
-      writings_short: Články
-    settings:
-      account: Účet
-      account_short: Účet
-      notifications: Upozornenia
-      notifications_short: Upozornenia
-      privacy: Súkromie
-      privacy_short: Súkromie
-      profile: Profil
-      profile_short: Profil
-      support: Predplatné
-      support_short: Predplatné
+    title: Čas na verifikáciu!
   support:
     benefits:
       item_1: A sexy <span>I Support FetLife</span> badge on your profile.
@@ -492,12 +439,13 @@ sk:
       item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
       item_3: Watch <span>all %{number}+ videos</span> shared by the community.
       item_4: Perv <span>all %{number}+ pictures</span> as they are shared.
-      item_5: View <span>everything you’ve ever loved</span>.
+      item_5: View <span>everything you’ve ever loved and bookmarked</span>.
       item_6: Go back <span>25x further</span> in your Friend Feed.
       item_7: Go back <span>25x further</span> in your @You Feed.
       item_8: "<span>Customize your Friend Feed</span> to your heart's content."
       item_9: Option to <span>hide inline ads</span> on mobile.
       list_description: 'For only $5 a month, not only do you help support the continued development of FetLife but you get to:'
+      list_description_exp: 'For only $5 %{currency} a month, not only do you help support the continued development of FetLife but you get to:'
       list_footer: All for less than the price of a bottle of lube… though we don’t recommend you substitute canola oil for lube… it doesn’t work so well.
       thank_you: Without your support there would be no FetLife. Thank you from the whole FetLife Family!
       title: What do I get for supporting FetLife?
@@ -524,7 +472,7 @@ sk:
       bankcode_blank: Bank can't be blank
       bic_blank: BIC can't be blank
       bic_format: Invalid BIC
-      canceled: Transaction cancelled by user.
+      canceled: Transaction canceled by user.
       city_blank: City can't be blank
       country_blank: Country has to be selected
       double_failsafe: Are you sure you want to support us again? Don't get us wrong, we appreciate the support, but we also don't want to double bill you by mistake. If you have any questions, please don't hesitate to email <a href="mailto:support@fetlife.com">support@fetlife.com</a>.
@@ -552,10 +500,15 @@ sk:
       question_q: Q. Have any questions?
       renew_a: Never. We want to earn your support everytime.
       renew_q: Q. Do you automatically renew my support?
-      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Cryptocurrency, or Paysafecard, due to the nature of how they work, they are final sale.
+      return_a_part_1: We offer a 7-day money back guarantee!
+      return_a_part_2: 'Unfortunately though, due to the nature of the following payment methods, we can''t issue refunds and all payments using these methods will be final sale: Gift Card Trade-IN, POLi, Cryptocurrency, and Paysafecard.'
+      return_a_part_3: Refunds are limited to one per person.
       return_q: Q. What’s your return policy?
       secure_a: Yes, very. FetLife doesn’t store any of your personal info on our servers.  We just use the info you provide us to process your transaction and that's it.
       secure_q: Q. Is this secure?
+      interac_q: Q. What currency is FetLife support billed in?
+      interac_a: |
+        All Support payments are billed in US$, with one exception: Canadian Interac e-Transfer, which is billed in CAN$.
       title: Frequently Asked Questions
     gift:
       affirm: You're the best!
@@ -575,12 +528,12 @@ sk:
       cc_curo:
         extra_info: We accept Visa, V Pay, Mastercard, and Maestro. It's easy and secure.
         title: Credit Card
-      cc_trustpay:
-        extra_info: We accept Visa and Mastercard. It's easy and secure.
-        title: Credit Card
       coingate:
-        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
+        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, and XRP.
         title: Cryptocurrency
+      curo_sepa:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports SEPA in Europe.
+        title: European Bank Transfer (SEPA)
       eps:
         extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports EPS in Austria.
         title: Austrian Bank Transfer (EPS)
@@ -599,7 +552,7 @@ sk:
         title: Physical Mail
       more_options: show me more options
       paygarden:
-        extra_info: Trade-in gift cards from 100+ brands including Starbucks, Best Buy, Target, Walmart, Home Depot, and Build-A-Bear.
+        extra_info: Trade-in gift cards from 100+ brands including Best Buy, Target, Walmart, and Home Depot.
         title: Major Brand Gift Card Trade-In
       paysafe:
         extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
@@ -626,14 +579,22 @@ sk:
       30_title: "$30 for 6 Months"
       60_info: "$5/month"
       60_title: "$60 for 12 Months"
+      120_info_exp: "$5 %{currency}/month"
+      120_title_exp: "$120 %{currency} for 24 Months"
+      240_info_exp: "<i>Priceless</i>"
+      240_title_exp: "$240 %{currency} for Lifetime!"
+      30_info_exp: "$5 %{currency}/month"
+      30_title_exp: "$30 %{currency} for 6 Months"
+      60_info_exp: "$5 %{currency}/month"
+      60_title_exp: "$60 %{currency} for 12 Months"
       return_info: 7-day no questions asked money back guarantee.
       title: How much do you love FetLife?
     step2_paygarden:
       confirm: I Have a Gift Card I Want to Trade for Support
-      list_footer: and <a href='%{link}'>100s of other major brands.</a>
+      list_footer: and <a href='%{link}' target="_blank">100s of other major brands.</a>
       list_header: We Accept Gift Cards From
       secure: Secure as Fort Knox
-      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Starbucks or Targets US online stores.
+      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Targets US online stores.
       tips_header: Tips &amp; Tricks
       title: Buy a Gift Card from a Major Brand
     step3_ach:
@@ -735,13 +696,14 @@ sk:
       secure: Secure as Fort Knox and we don't store any of your personal information.
       title: iDEAL Payment
     step3_interac:
-      amount: 'Amount:'
-      answer_label: 'Answer:'
+      amount: Amount
+      answer_label: Answer
       answer_placeholder: Answer
       cta: I've Sent the Interac e-Transfer
-      question_label: 'Security Question:'
+      message: Message
+      question_label: Security Question
       question_placeholder: Security Question
-      send: 'Send to:'
+      send: Send to
       thank_you: Thank You!
       title: Send Interac e-Transfer
     step3_mail:

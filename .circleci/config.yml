@@ -3,7 +3,7 @@ jobs:
   check:
     working_directory: ~/translations
     docker:
-      - image: circleci/ruby:2.7.2-buster
+      - image: cimg/ruby:3.2
     parallelism: 1
     steps:
       - checkout
@@ -49,7 +49,3 @@ workflows:
             branches:
               only:
                 - master
-
-notify:
-  webhooks:
-    - url: https://fetlife-johnny5.herokuapp.com/circleci

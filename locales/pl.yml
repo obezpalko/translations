@@ -12,35 +12,24 @@ pl:
     subtitle: Weź mnie na dwa etapy!
     title: Tajny kod
   about:
-    contact_info: Informacje kontaktowe
-    email_us: Napisz do nas pod <a href="mailto:support@fetlife.com">support@fetlife.com</a> a odpiszemy jak z bicza trzasł!
-    europe: Europa
-    got_question: Masz pytanie? Potrzebujesz pomocy?
-    north_america: Ameryka Północna
-    one_love: One love, one life, and a whole lot of kink.
-    snail_mail: Prawdziwa poczta
     sub_header: Nie mylić ze Spartanami.
     title: We. Are. FetLife!
   components:
     step: Krok
-  edit_profile:
-    sidebar_questions:
-      pics_and_vids_discoverability_a: Through FetLife’s search, your pics and vids are only findable by friends and followers. If you want other FetLifers to discover your kinkalicious pics and vids, you can update your privacy settings.
-      pics_and_vids_discoverability_link: Go to settings
-      pics_and_vids_discoverability_q: Pics and vid discoverability
   feed:
     comment: Skomentuj
     comments_count:
       few: "%{count_with_delimiter} komentarze"
+      many: "%{count_with_delimiter} komentarzy"
       one: 1 komentarz
       other: "%{count_with_delimiter} komentarzy"
     composer:
       button: Powiedz to!
       placeholder: I co Ty na to?
     love: Pokochaj
-    loved_hover: Łamacz serc! :-(
     loves_count:
       few: "%{count_with_delimiter} serducha"
+      many: "%{count_with_delimiter} serduch"
       one: 1 Serducho
       other: "%{count_with_delimiter} serduch"
     modal:
@@ -54,7 +43,6 @@ pl:
   footer:
     advertising: Reklama
     contact: Skontaktuj się z nami
-    glossary: Słowniczek
     help: Pomoc
     privacy: Prywatność
   forgot_password:
@@ -120,31 +108,11 @@ pl:
       terms_and_conditions_terms_of_use_link: Terms of Use
       title_description: A group is where kinksters can come together to share experiences, common interests, make plans, and more!
       title_title: Create a New Group
-  guidelines:
-    header: FetLife Guidelines & Legalese
-    headers:
-      community: Community Guidelines
-      content: Content Guidelines
-      group_leader: Group Leader Guidelines
-      values: Guiding Values
-    last_updated: 'Ostatnio zaktualizowane:'
-    sections:
-      guidelines:
-        description: To help make FetLife a fun place for everyone, we kindly ask everyone to follow our Content, Community, and Group guidelines.
-        title: Guidelines
-      legalese:
-        description: This section contains the Terms of Use all members agree to when they sign up for FetLife. We've tried to keep things as simple and clear as possible!
-        title: Legalese
-      privacy:
-        description: How secure is your data and what is FetLife doing to safeguard it? At FetLife, we treat your data how we'd like ours treated.
-        title: Privacy
-    subheader: You'll find our site guidelines, legal documentation, and privacy policy here.
-    subnav:
-      community: Społeczność
-      content: Zawartość
-      group_leader: Lider grupy
-      values: Values
-    title: Wytyczne
+  header:
+    friendship_requests_count: Friendship Requests (%{count})
+    inbox_count: Inbox (%{count})
+    notifications_count: Notifications (%{count})
+    post_new: Post Something New
   invite_a_friend:
     cancel_button: anuluj
     cancel_notice: Anulowano zaproszenie dla %{email}.
@@ -160,6 +128,8 @@ pl:
     next_step: następny krok
     return_to_feed: powrót do dziennika
     subtitle_step1:
+      few: 'Pozostało zaproszeń: %{count_with_delimiter}.'
+      many: 'Pozostało zaproszeń: %{count_with_delimiter}.'
       one: Zostało Ci 1 zaproszenie.
       other: 'Pozostało zaproszeń: %{count_with_delimiter}.'
     subtitle_step2: Wysłaliśmy zaproszenie od Ciebie dla %{email}.
@@ -167,24 +137,8 @@ pl:
     title_step2: Zaproszenie wysłane
     view_invitations: pokaż zaproszenia
   landing_page:
-    login_button: Zaloguj się do FetLife
     signup_button: Dołącz do FetLife
-    stats_details: udostępniają <strong class="fw4 silver">%{picture_count} obrazków</strong> i <strong class="fw4 silver">%{video_count} filmików</strong>, biorą udział w <strong class="fw4 silver">%{discussion_count} dyskusjach</strong> w <strong class="fw4 silver">%{group_count} grupach</strong>, idą na <strong class="fw4 silver">%{event_count} nadchodzących wydarzeń</strong>, i czytają <strong class="fw4 silver">%{post_count} wpisów na blogach</strong>. <span><span class="i">Raj dla kinksterów!</span>
-    stats_members: Członkowie
-    subtitle: Jak Facebook, ale robiony przez kinksterów takich jak Ty czy ja. Tak jest chyba fajniej, nie?
     title: FetLife to sieć społecznościowa o tematyce BDSM, fetyszy i perwersji.
-  legalese:
-    headers:
-      2257_exempt: 2257 Exempt
-      legal_requests: Legal Requests
-      privacy_policy: Privacy Policy
-      terms_of_use: Terms of Use
-    subnav:
-      2257_exempt: 2257 Exempt
-      legal_requests: Legal Requests
-      privacy: Polityka prywatności
-      terms: Zasady użytkowania
-    title: Legalese
   lockout:
     subtitle: Aktywowałeś nasz system alarmowy.
     title: Straż, straż, straaaż!
@@ -212,26 +166,35 @@ pl:
     title: Będziemy tęsknić!
   member_stats:
     pics:
+      few: 'fotki: %{count_with_delimiter}'
+      many: 'fotki: %{count_with_delimiter}'
       one: 1 fotka
       other: 'fotki: %{count_with_delimiter}'
     posts:
+      few: 'posty: %{count_with_delimiter}'
+      many: 'posty: %{count_with_delimiter}'
       one: 1 post
       other: 'posty: %{count_with_delimiter}'
     vids:
+      few: 'filmiki: %{count_with_delimiter}'
+      many: 'filmiki: %{count_with_delimiter}'
       one: 1 filmik
       other: 'filmiki: %{count_with_delimiter}'
   nav:
     events: Wydarzenia
     explore: Eksploruj
     fetishes: Fetysze
+    fetlife_status: Status FetLife
     groups: Grupy
     home: Główna
+    menu: Menu
+    menu_title: Show navigation menu
+    more: More
+    more_title: Navigate elsewhere
     places: Miejsca
     search_placeholder: Wyszukaj na FetLife
     videos: Filmiki
     writings: Wpisy
-  page_break:
-    of: z
   privacy:
     title: Privacy
   profile:
@@ -327,20 +290,22 @@ pl:
     title: Zaktualizuj adres e-mail
   sidebar:
     about_fetlife: Poznaj nasz team
-    ad_stats: Statystyki reklam
+    account_settings: Account Settings
     advertisers: All Advertisers
     advertising: Reklama
     already_member: Jesteś już członkiem?
     androidapp: Zainstaluj appkę na Androida
+    become_verified: Become Verified!
     bug_bounty: Premia za znalezienie bugów
     careers: Careers
-    caretaking: Narzędzia dla opiekunów
     change_language: Zmień język
     close: zamknij
     contact_us: Kontakt
+    content_guidelines: Content Guidelines
     edit_profile: Edytuj profil
     edit_settings: Edytuj ustawienia
     events: Wydarzenia
+    exempt: 2257 Exempt
     fetishes: Fetysze
     following: Śledzenie
     formatting: Formatting Guidelines
@@ -348,31 +313,49 @@ pl:
     friends_and_following: Friends & Following
     funny_quote: Jeśli nie możesz tego przeczytać ... to pewnie potrzebujesz okularów! - John 4:69
     gift_support: Podaruj FetLife Support
-    glossary: Słowniczek
     groups: Grupy
     guidelines: Wytyczne
+    guiding_values: Guiding Values
     home: Start
     invite_a_friend: Zaproś znajomych (%{count})
+    invites: Invites
     kp: Kinky & Popular
+    legal_requests: Legal Request
     legalese: Kwestie prawne
     log_out: Wyloguj się
     login: Zaloguj się
     loved_stuff: To co kochasz
     need_help: Potrzebujesz pomocy?
+    new_status: Post Status Update
+    new_writing: New Writing
+    noification_preferences: Notification Preferences
     open_source: Open Source
     places: Lokalizacje
-    preservation_requests: Preservation Requests
     privacy: Prywatność
+    privacy_options: Privacy Options
     privacy_policy: Privacy Policy
+    pwa: Add FetLife to Home Screen
     recommendations: Rekomendacje
+    show_account_menu: Show Account Menu
     signup: Dołącz do FetLife
-    subscriptions: Subskrypcje
     support: Wesprzyj FetLife
     terms: Zasady
+    title:
+      about_fetlife: About FetLife
+      community: Community
+      legalese: Legalese
+      need_help: Need Help?
+    transparency: Transparency
+    trust_and_safety: Trust & Safety
+    upcoming_events: Upcoming Events
     upload_picture: Wgraj obrazek
     upload_video: Wgraj filmik
+    verification_pending: Profile Verification Pending
+    verify_profile: Verify Profile
     videos: Filmiki
     view_friends: Pokaż znajomych
+    view_profile: view profile
+    view_terms: View Terms of Use
     wallpapers: Tapety FetLife
     whats_new: Co nowego
     write_post: Napisz posta
@@ -398,8 +381,9 @@ pl:
     error_password_required: Hasło jest wymagane.
     error_role_required: Rola jest wymagana.
     error_sexual_orientation_required: Orientacja seksualna jest wymagana.
+    error_orientation_required: Orientation has to be selected.
     error_state_missing: Województwo/stan/prowincja jest wymagana.
-    footnote: Klikając powyższy przycisk zgadzasz się szanować i podążać za naszymi <a class="silver" href="%{guidelines_path}">Wytycznymi Społeczności</a> oraz <a class="silver" href="%{tou_path}">Zasadmi Korzystania</a>&hellip; nie ma cofanek.
+    footnote: By clicking "Complete Signup & Verify Email" you agree to respect and follow our <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Terms of Use</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Privacy Policy</a>, and <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Community Guidelines</a>.
     label:
       birthdate: Data urodzenia
       city: Miasto
@@ -411,6 +395,7 @@ pl:
       password: Hasło
       role: Rola
       sexual_orientation: Orientacja seksualna
+      orientation: Orientation
       state: Województwo/stan/prowincja
     page_title: Dołącz do nas
     return_to_login: Jesteś już członkiem? Zaloguj się do FetLife
@@ -444,44 +429,14 @@ pl:
     subtitle: One-time anonymous text message.
     title: Verification Time!
   signup_verify:
-    cta: Complete Signup & Verification
+    cta: Submit Verification Code
     incorrect_code: "<strong>Kinky Operator:</strong> Doh&hellip; the verification code you entered seems off. Please verify that the number above matches what you received from us and try again."
-    label: Verification Code
+    label: Enter the 6-digit code we just sent to your mobile phone.
     notice: We sent the verification code to <strong>%{phone_number}</strong>. If after a couple minutes you don't receive a text message from us, <a class="silver" href="%{back_path}">update your number and we'll send you a new verification code</a>.
     page_title: Enter Verification Code
     placeholder: 6-Digit Verification Code
     subtitle: That was a bit painful wasn't it?!?!
-    title: Last Step
-  subnav:
-    feed:
-      activity_feed: Activity Feed
-      activity_feed_short: Home
-      fp: Fresh<span class="a-ampersand">&amp;</span>Pervy
-      fp_short: Fresh
-      kp: Kinky<span class="a-ampersand">&amp;</span>Popular
-      kp_short: Popular
-    profile:
-      about: About Me
-      about_short: About
-      latest: Latest Activity
-      latest_short: Latest
-      pictures: Pictures
-      pictures_short: Pics
-      videos: Videos
-      videos_short: Vids
-      writings: Writings
-      writings_short: Writings
-    settings:
-      account: Account
-      account_short: Account
-      notifications: Notifications
-      notifications_short: Notifications
-      privacy: Privacy
-      privacy_short: Privacy
-      profile: Profile
-      profile_short: Profile
-      support: Support
-      support_short: Support
+    title: Verification Time!
   support:
     benefits:
       item_1: A sexy <span>I Support FetLife</span> badge on your profile.
@@ -489,12 +444,13 @@ pl:
       item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
       item_3: Watch <span>all %{number}+ videos</span> shared by the community.
       item_4: Perv <span>all %{number}+ pictures</span> as they are shared.
-      item_5: View <span>everything you’ve ever loved</span>.
+      item_5: View <span>everything you’ve ever loved and bookmarked</span>.
       item_6: Go back <span>25x further</span> in your Friend Feed.
       item_7: Go back <span>25x further</span> in your @You Feed.
       item_8: "<span>Customize your Friend Feed</span> to your heart's content."
       item_9: Option to <span>hide inline ads</span> on mobile.
       list_description: 'For only $5 a month, not only do you help support the continued development of FetLife but you get to:'
+      list_description_exp: 'For only $5 %{currency} a month, not only do you help support the continued development of FetLife but you get to:'
       list_footer: All for less than the price of a bottle of lube… though we don’t recommend you substitute canola oil for lube… it doesn’t work so well.
       thank_you: Without your support there would be no FetLife. Thank you from the whole FetLife Family!
       title: What do I get for supporting FetLife?
@@ -521,7 +477,7 @@ pl:
       bankcode_blank: Bank can't be blank
       bic_blank: BIC can't be blank
       bic_format: Invalid BIC
-      canceled: Transaction cancelled by user.
+      canceled: Transaction canceled by user.
       city_blank: City can't be blank
       country_blank: Country has to be selected
       double_failsafe: Are you sure you want to support us again? Don't get us wrong, we appreciate the support, but we also don't want to double bill you by mistake. If you have any questions, please don't hesitate to email <a href="mailto:support@fetlife.com">support@fetlife.com</a>.
@@ -549,10 +505,15 @@ pl:
       question_q: Q. Have any questions?
       renew_a: Never. We want to earn your support everytime.
       renew_q: Q. Do you automatically renew my support?
-      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Cryptocurrency, or Paysafecard, due to the nature of how they work, they are final sale.
+      return_a_part_1: We offer a 7-day money back guarantee!
+      return_a_part_2: 'Unfortunately though, due to the nature of the following payment methods, we can''t issue refunds and all payments using these methods will be final sale: Gift Card Trade-IN, POLi, Cryptocurrency, and Paysafecard.'
+      return_a_part_3: Refunds are limited to one per person.
       return_q: Q. What’s your return policy?
       secure_a: Yes, very. FetLife doesn’t store any of your personal info on our servers.  We just use the info you provide us to process your transaction and that's it.
       secure_q: Q. Is this secure?
+      interac_q: Q. What currency is FetLife support billed in?
+      interac_a: |
+        All Support payments are billed in US$, with one exception: Canadian Interac e-Transfer, which is billed in CAN$.
       title: Frequently Asked Questions
     gift:
       affirm: You're the best!
@@ -572,12 +533,12 @@ pl:
       cc_curo:
         extra_info: We accept Visa, V Pay, Mastercard, and Maestro. It's easy and secure.
         title: Credit Card
-      cc_trustpay:
-        extra_info: We accept Visa and Mastercard. It's easy and secure.
-        title: Credit Card
       coingate:
-        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
+        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, and XRP.
         title: Cryptocurrency
+      curo_sepa:
+        extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports SEPA in Europe.
+        title: European Bank Transfer (SEPA)
       eps:
         extra_info: As straightforward and secure as paying by credit card for those with a bank account that supports EPS in Austria.
         title: Austrian Bank Transfer (EPS)
@@ -596,7 +557,7 @@ pl:
         title: Physical Mail
       more_options: show me more options
       paygarden:
-        extra_info: Trade-in gift cards from 100+ brands including Starbucks, Best Buy, Target, Walmart, Home Depot, and Build-A-Bear.
+        extra_info: Trade-in gift cards from 100+ brands including Best Buy, Target, Walmart, and Home Depot.
         title: Major Brand Gift Card Trade-In
       paysafe:
         extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
@@ -623,14 +584,22 @@ pl:
       30_title: "$30 for 6 Months"
       60_info: "$5/month"
       60_title: "$60 for 12 Months"
+      120_info_exp: "$5 %{currency}/month"
+      120_title_exp: "$120 %{currency} for 24 Months"
+      240_info_exp: "<i>Priceless</i>"
+      240_title_exp: "$240 %{currency} for Lifetime!"
+      30_info_exp: "$5 %{currency}/month"
+      30_title_exp: "$30 %{currency} for 6 Months"
+      60_info_exp: "$5 %{currency}/month"
+      60_title_exp: "$60 %{currency} for 12 Months"
       return_info: 7-day no questions asked money back guarantee.
       title: How much do you love FetLife?
     step2_paygarden:
       confirm: I Have a Gift Card I Want to Trade for Support
-      list_footer: and <a href='%{link}'>100s of other major brands.</a>
+      list_footer: and <a href='%{link}' target="_blank">100s of other major brands.</a>
       list_header: We Accept Gift Cards From
       secure: Secure as Fort Knox
-      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Starbucks or Targets US online stores.
+      tips: If you live outside of the United States, we recommend you use a VPN/Proxy and buy a gift card in USD from Targets US online stores.
       tips_header: Tips &amp; Tricks
       title: Buy a Gift Card from a Major Brand
     step3_ach:
@@ -732,13 +701,14 @@ pl:
       secure: Secure as Fort Knox and we don't store any of your personal information.
       title: iDEAL Payment
     step3_interac:
-      amount: 'Amount:'
-      answer_label: 'Answer:'
+      amount: Amount
+      answer_label: Answer
       answer_placeholder: Answer
       cta: I've Sent the Interac e-Transfer
-      question_label: 'Security Question:'
+      message: Message
+      question_label: Security Question
       question_placeholder: Security Question
-      send: 'Send to:'
+      send: Send to
       thank_you: Thank You!
       title: Send Interac e-Transfer
     step3_mail:

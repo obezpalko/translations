@@ -12,22 +12,10 @@ tr:
     subtitle: 2-Factor me baby!
     title: Gizli Kod
   about:
-    contact_info: İletişim Bilgisi
-    email_us: Bize <a href="mailto:support@fetlife.com"> support@fetlife.com </a> adresinden e-posta gönderin; size hızlı bir şekilde geri döneceğiz!
-    europe: Avrupa
-    got_question: Bir sorun mu var? Yardıma mı ihtiyacınız var?
-    north_america: Kuzey Amerika
-    one_love: Bir aşk, bir hayat ve çok fazla Kink.
-    snail_mail: Normal Posta
     sub_header: Spartalılar'la karıştırılmaması gerekir.
     title: Biz. Hepimiz. Fetlife!
   components:
     step: Adım
-  edit_profile:
-    sidebar_questions:
-      pics_and_vids_discoverability_a: Through FetLife’s search, your pics and vids are only findable by friends and followers. If you want other FetLifers to discover your kinkalicious pics and vids, you can update your privacy settings.
-      pics_and_vids_discoverability_link: Go to settings
-      pics_and_vids_discoverability_q: Pics and vid discoverability
   feed:
     comment: Yorum
     comments_count:
@@ -37,7 +25,6 @@ tr:
       button: Söyle
       placeholder: Ne söylüyorsun?
     love: Beğeni
-    loved_hover: Kalp Kırıcı! :-(
     loves_count:
       one: 1 Beğeni
       other: "%{count_with_delimiter} Beğeniler"
@@ -52,7 +39,6 @@ tr:
   footer:
     advertising: Reklam
     contact: Bize Ulaşın
-    glossary: Sözlük
     help: Yardım
     privacy: Gizlilik
   forgot_password:
@@ -118,31 +104,11 @@ tr:
       terms_and_conditions_terms_of_use_link: Kullanım Şartları
       title_description: Tecrübeleri, ortak çıkarları, planlarını yapmak ve daha fazlasını paylaşmak için ortakların bir araya gelebileceği bir grup!
       title_title: Yeni Grup Oluştur
-  guidelines:
-    header: FetLife Kuralları ve Yasal
-    headers:
-      community: Topluluk Rehberleri
-      content: İçerik Guidelines
-      group_leader: Grup Lideri Rehberleri
-      values: Guiding Values
-    last_updated: 'Son güncelleme:'
-    sections:
-      guidelines:
-        description: FetLife'ı herkes için eğlenceli bir yer haline getirmek için, herkesten İçeriğimizi, Topluluğumuzu ve Grup kurallarımıza uymalarını rica ediyoruz.
-        title: Rehberler
-      legalese:
-        description: Bu bölümde yer alan Kullanım Koşullarını tüm üyeler FetLife'a kaydoldukları zaman kabul etmiş sayılır. Herşeyi olabildiğince basit ve açık tutmaya çalıştık!
-        title: Yasal
-      privacy:
-        description: Verileriniz ne kadar güvende ve FetLife onu korumak için ne yapıyor? FetLife'da verilerimize, bizim nasıl davranılmasını istediğimizi ele alıyoruz.
-        title: Gizlilik
-    subheader: Site yönergelerimizi, yasal belgeleri ve gizlilik politikasını burada bulabilirsiniz.
-    subnav:
-      community: Topluluk
-      content: İçerik
-      group_leader: Grup Lideri
-      values: Values
-    title: Rehberler
+  header:
+    friendship_requests_count: Friendship Requests (%{count})
+    inbox_count: Inbox (%{count})
+    notifications_count: Notifications (%{count})
+    post_new: Post Something New
   invite_a_friend:
     cancel_button: iptal
     cancel_notice: "%{email}'e gönderilen davet iptal edildi."
@@ -165,24 +131,8 @@ tr:
     title_step2: Davet Gönderildi
     view_invitations: davetlerini görüntüle
   landing_page:
-    login_button: FetLife'a Giriş Yapın
     signup_button: FetLife'a Katılın
-    stats_details: <strong class="fw4 silver">%{picture_count} fotoğraf</strong> ve <strong class="fw4 silver">%{video_count} video</strong> paylaşıyor, <strong class="fw4 silver">%{group_count} grupta</strong> <strong class="fw4 silver">%{discussion_count} tartışamaya</strong> katılıyor, <strong class="fw4 silver">%{event_count} tane yaklaşan etkinliğe</strong> katılıyor ve <strong class="fw4 silver">%{post_count} blog gönderisi</strong> okuyor. <span><span class="i">Kinky Cennet!</span>
-    stats_members: Üye
-    subtitle: Facebook gibi, ama sen ve ben gibi kinksterlar tarafından yönetiliyor. Bu şekilde daha eğlenceli olduğunu düşünüyoruz. Değil mi
     title: FetLife, BDSM, Fetiş ve Kinky Topluluğu'nun Sosyal Ağıdır.
-  legalese:
-    headers:
-      2257_exempt: 2257 Muaf
-      legal_requests: Yasal İstekler
-      privacy_policy: Gizlilik Politikası
-      terms_of_use: Kullanım Şartları
-    subnav:
-      2257_exempt: 2257 Muaf
-      legal_requests: Yasal İstekler
-      privacy: Gizlilik Politikası
-      terms: Kullanım Şartları
-    title: Yasal
   lockout:
     subtitle: Güvenlik sistemimizi açtın.
     title: Güvenlik, Güvenlik, Güvenlik!
@@ -222,14 +172,17 @@ tr:
     events: Etkinlikler
     explore: Keşfet
     fetishes: Fetişler
+    fetlife_status: Status FetLife
     groups: Gruplar
     home: Anasayfa
+    menu: Menu
+    menu_title: Show navigation menu
+    more: More
+    more_title: Navigate elsewhere
     places: Yerler
     search_placeholder: FetLife'da Ara
     videos: Videolar
     writings: Gönderiler
-  page_break:
-    of: ''
   privacy:
     title: Gizlilik
   profile:
@@ -325,20 +278,22 @@ tr:
     title: Eposta Adresini Güncelle
   sidebar:
     about_fetlife: Ekiple Tanışın
-    ad_stats: Reklam İstatistikleri
+    account_settings: Account Settings
     advertisers: All Advertisers
     advertising: Reklam
     already_member: Zaten üye misiniz?
     androidapp: FetLife Android Uygulamasını Yükle
+    become_verified: Become Verified!
     bug_bounty: Ödül Avcılığı
     careers: Careers
-    caretaking: Güvenlik Araçları
     change_language: Dil Değiştir
     close: kapat
     contact_us: Bize Ulaşın
+    content_guidelines: Content Guidelines
     edit_profile: Profili Düzenle
     edit_settings: Ayarlarını Güncelle
     events: Etkinlikler
+    exempt: 2257 Exempt
     fetishes: Fetişler
     following: Takip Edilenler
     formatting: Formatting Guidelines
@@ -346,31 +301,49 @@ tr:
     friends_and_following: Friends & Following
     funny_quote: Eğer bunu okuyabiliyorsan, gerçekten iyi bir bakış açısına sahipsin! - John 4:69
     gift_support: Hediye FetLife Desteği
-    glossary: Sözlük
     groups: Gruplar
     guidelines: Rehberler
+    guiding_values: Guiding Values
     home: Anasayfa
     invite_a_friend: Arkadaşını Davet Et (%{count})
+    invites: Invites
     kp: Kinky & Popular
+    legal_requests: Legal Request
     legalese: Yasal
     log_out: Çıkış Yap
     login: Giriş Yap
     loved_stuff: Sevdiğiniz Şeyler
     need_help: Yardıma Mı İhtiyacınız Var?
+    new_status: Post Status Update
+    new_writing: New Writing
+    noification_preferences: Notification Preferences
     open_source: Açık Kaynak
     places: Konumlar
-    preservation_requests: Koruma İstekleri
     privacy: Gizlilik
+    privacy_options: Privacy Options
     privacy_policy: Privacy Policy
+    pwa: Add FetLife to Home Screen
     recommendations: Öneriler
+    show_account_menu: Show Account Menu
     signup: FetLife'a Katılın
-    subscriptions: Abonelikler
     support: FetLife'ı Destekleyin
     terms: Şartlar
+    title:
+      about_fetlife: About FetLife
+      community: Community
+      legalese: Legalese
+      need_help: Need Help?
+    transparency: Transparency
+    trust_and_safety: Trust & Safety
+    upcoming_events: Upcoming Events
     upload_picture: Fotoğraf Yükle
     upload_video: Video Yükle
+    verification_pending: Profile Verification Pending
+    verify_profile: Verify Profile
     videos: Videolar
-    view_friends: Arkadaşları Gör
+    view_friends: Arkadaşları
+    view_profile: view profile
+    view_terms: View Terms of Use
     wallpapers: FetLife Duvar Kağıtları
     whats_new: Yeni Ne Var
     write_post: Gönderi Yaz
@@ -396,8 +369,9 @@ tr:
     error_password_required: Şifre gereklidir.
     error_role_required: Rol seçilmelidir.
     error_sexual_orientation_required: Cinsel Yönelim seçilmelidir.
+    error_orientation_required: Orientation has to be selected.
     error_state_missing: Eyalet/İl seçilmeli.
-    footnote: Üye olurken "Kaydı Tamamla ve Doğrula" yı tıklayarak, <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Kullanım Koşulları</a>mıza, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Gizlilik Politika</a>mıza ve <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Topluluk Rehberleri</a>mize saygı duymayı ve bunlara uymayı kabul edersiniz.
+    footnote: By clicking "Complete Signup & Verify Email" you agree to respect and follow our <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Terms of Use</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Privacy Policy</a>, and <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Community Guidelines</a>.
     label:
       birthdate: Doğumgünü
       city: Şehir
@@ -409,6 +383,7 @@ tr:
       password: Şifre
       role: Rol
       sexual_orientation: Cinsel Yönelim
+      orientation: Orientation
       state: Eyalet/İl
     page_title: Kaydol
     return_to_login: Zaten bir üye misiniz? FetLife'a Giriş Yapın
@@ -442,44 +417,14 @@ tr:
     subtitle: Bir kerelik anonim kısa mesaj.
     title: Doğrulama Zamanı!
   signup_verify:
-    cta: Kaydı Tamamla ve Doğrula
+    cta: Submit Verification Code
     incorrect_code: "<strong>Kinky Operatör:</strong> Hmm … girdiğiniz doğrulama kodu eşleşmiyor. Lütfen yukarıdaki numaranın bizden aldıklarınızla eşleştiğini doğrulayın ve tekrar deneyin."
-    label: Doğrulama Kodu
+    label: Enter the 6-digit code we just sent to your mobile phone.
     notice: Doğrulama kodunu <strong>%{phone_number}</strong> numarasına gönderdik. Birkaç dakika sonra bizden kısa mesaj almazsanız, <a class="silver" href="%{back_path}">numaranızı güncelleyin, size yeni bir doğrulama kodu gönderelim</a>.
     page_title: Dogrulama Kodunu Giriniz
     placeholder: 6 Basamaklı Doğrulama Kodu
     subtitle: Bu biraz acı vericiydi, değil mi??!?!
-    title: Son Adım
-  subnav:
-    feed:
-      activity_feed: Etkinlik Akışı
-      activity_feed_short: Anasayfa
-      fp: Fresh<span class="a-ampersand">&</span>Pervy
-      fp_short: Fresh
-      kp: Kinky<span class="a-ampersand">&</span>Popular
-      kp_short: Popular
-    profile:
-      about: Benim Hakkımda
-      about_short: Hakkımda
-      latest: Son Aktiviteler
-      latest_short: Son
-      pictures: Fotoğraflar
-      pictures_short: Resimler
-      videos: Videolar
-      videos_short: Vidolar
-      writings: Gönderiler
-      writings_short: Gönderiler
-    settings:
-      account: Hesap
-      account_short: Hesap
-      notifications: Bildirimler
-      notifications_short: Bildirimler
-      privacy: Gizlilik
-      privacy_short: Gizlilik
-      profile: Profil
-      profile_short: Profil
-      support: Destek
-      support_short: Destek
+    title: Doğrulama Zamanı!
   support:
     benefits:
       item_1: Profilinizde seksi bir <span>FetLife'ı destekliyorum</span> rozeti.
@@ -487,12 +432,13 @@ tr:
       item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
       item_3: Topluluk tarafından paylaşılan <span>%{number} + videoyu</span> izleyin.
       item_4: Paylaşılan tüm <span>%{number}+ fotoğraflara</span> anında erişin.
-      item_5: Önceden <span>beğendiniz her şeyi görün</span>.
+      item_5: View <span>everything you’ve ever loved and bookmarked</span>.
       item_6: Arkadaş Akışınızda <span>25 kat daha fazla</span> geriye gidin.
       item_7: Kendi @Sen Akışınızda <span>25 kat daha fazla</span> geriye gidin.
       item_8: "<span>Arkadaş Akışınızı Özelleştirin</span>, kalbinizin içeriğine göre."
       item_9: Option to <span>hide inline ads</span> on mobile.
       list_description: 'Ayda sadece 5$ karşılığında, sadece FetLifeın sürekli gelişimini desteklemeye yardım etmekle kalmaz, aynı zamanda:'
+      list_description_exp: 'Ayda sadece $5 %{currency} karşılığında, sadece FetLifeın sürekli gelişimini desteklemeye yardım etmekle kalmaz, aynı zamanda:'
       list_footer: Hepsi bir şişe yağın fiyatından daha düşük bir fiyatla… yine de, kanola yağıyla değiştirmenizi tavsiye etmiyoruz… çok iyi çalışmıyor.
       thank_you: Desteğiniz olmadan FetLife olmazdı. Bütün FetLife Ailesinden teşekkür ederiz!
       title: FetLife'ı desteklediğimde ne alabilirim?
@@ -547,10 +493,15 @@ tr:
       question_q: S. Sorularınız mı var?
       renew_a: Asla. Her zaman sizin desteğinizi istiyoruz.
       renew_q: S. Desteğimi otomatik olarak yeniliyor musunuz?
-      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Cryptocurrency, or Paysafecard, due to the nature of how they work, they are final sale.
+      return_a_part_1: We offer a 7-day money back guarantee!
+      return_a_part_2: 'Unfortunately though, due to the nature of the following payment methods, we can''t issue refunds and all payments using these methods will be final sale: Gift Card Trade-IN, POLi, Cryptocurrency, and Paysafecard.'
+      return_a_part_3: Refunds are limited to one per person.
       return_q: S. İade politikanız nedir?
       secure_a: Evet, çok. FetLife hiçbir kişisel bilginizi sunucularımızda saklamıyor. İşleminizi yaparken bize verdiğiniz bilgileri kullanıyoruz, hepsi bu.
       secure_q: S. Bu güvenli mi?
+      interac_q: Q. What currency is FetLife support billed in?
+      interac_a: |
+        All Support payments are billed in US$, with one exception: Canadian Interac e-Transfer, which is billed in CAN$.
       title: Sıkça Sorulan Sorular
     gift:
       affirm: En iyisi sensin!
@@ -570,12 +521,12 @@ tr:
       cc_curo:
         extra_info: Visa, V Pay, Mastercard ve Maestro kabul ediyoruz. Kolay ve güvenli.
         title: Kredi Kartı
-      cc_trustpay:
-        extra_info: Visa ve Mastercard kabul ediyoruz. Kolay ve güvenli.
-        title: Kredi Kartı
       coingate:
-        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
+        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, and XRP.
         title: Cryptocurrency
+      curo_sepa:
+        extra_info: Avrupa'da SEPA'yı destekleyen bir banka hesabına sahip olanlar için kredi kartıyla ödeme yapmak kadar kolay ve güvenli.
+        title: Avrupa Banka Havalesi (SEPA)
       eps:
         extra_info: Avusturya'da EPS'yi destekleyen bir banka hesabına sahip olanlar için kredi kartıyla ödeme yapmak kadar kolay ve güvenli.
         title: Avusturya Banka Havalesi (EPS)
@@ -594,7 +545,7 @@ tr:
         title: Fiziksel Posta
       more_options: bana daha fazla seçenek göster
       paygarden:
-        extra_info: Starbucks, Best Buy, Target, Walmart, Home Depot ve Build-A-Bear dahil olmak üzere 100'den fazla markadan gelen hediye kartları.
+        extra_info: Best Buy, Target, Walmart ve Home Depot dahil olmak üzere 100'den fazla markadan gelen hediye kartları.
         title: Büyük Marka Hediye Kartı Takası
       paysafe:
         extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
@@ -621,14 +572,22 @@ tr:
       30_title: 6 Aylık $30
       60_info: "$5/ay"
       60_title: Yıllık $60
+      120_info_exp: "$5 %{currency}/ay"
+      120_title_exp: Yıllık $120 %{currency}
+      240_info_exp: "<i>Paha Biçilemez</i>"
+      240_title_exp: "Ömür $240 %{currency}!"
+      30_info_exp: "$5 %{currency}/ay"
+      30_title_exp: "6 Aylık $30 %{currency}"
+      60_info_exp: "$5 %{currency}/ay"
+      60_title_exp: "Yıllık 60 %{currency}"
       return_info: 7 gün hiçbir soru sormadan para iade garantisi vermedi.
       title: FetLife'ı ne kadar seviyorsun?
     step2_paygarden:
       confirm: Destek için İşlem Yapmak İstediğim Hediye Kartım Var
-      list_footer: ve <a href='%{link}'>100lerce diğer büyük marka.</a>
+      list_footer: ve <a href='%{link}' target="_blank">100lerce diğer büyük marka.</a>
       list_header: Şuralardan Hediye Kartları Kabul Ediyoruz
       secure: Fort Knox Kadar Güvenli
-      tips: Amerika Birleşik Devletleri dışında yaşıyorsanız, VPN / Proxy kullanmanızı ve USD cinsinden Starbucks veya Targets US çevrimiçi mağazalarından hediye kartı almanızı öneririz.
+      tips: Amerika Birleşik Devletleri dışında yaşıyorsanız, VPN / Proxy kullanmanızı ve USD cinsinden Targets US çevrimiçi mağazalarından hediye kartı almanızı öneririz.
       tips_header: İpuçları & Püf Noktaları
       title: Büyük Bir Markadan Hediye Kartı Satın Alın
     step3_ach:
@@ -730,13 +689,14 @@ tr:
       secure: Fort Knox gibi güvende ve kişisel hiçbir bilginizi saklamıyoruz.
       title: iDEAL Ödemesi
     step3_interac:
-      amount: 'Miktar:'
-      answer_label: 'Cevap:'
+      amount: Miktar
+      answer_label: Cevap
       answer_placeholder: Cevap
       cta: Interac e-Transfer'i gönderdim
-      question_label: 'Güvenlik Sorusu:'
+      message: Message
+      question_label: Güvenlik Sorusu
       question_placeholder: Güvenlik Sorusu
-      send: 'Gönderildi:'
+      send: Gönderildi
       thank_you: Teşekkürler!
       title: Interac e-Transfer Gönder
     step3_mail:
