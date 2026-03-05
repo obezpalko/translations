@@ -12,33 +12,24 @@ ru:
     subtitle: В два этапа, детка!
     title: Секретный Код
   about:
-    contact_info: Контактная Информация
-    email_us: Напишите нам на <a href="mailto:support@fetlife.com">support@fetlife.com</a> и мы сразу ответим!
-    europe: Европа
-    got_question: Есть вопросы? Нужна помощь?
-    north_america: Северная Америка
-    one_love: Одна любовь, одна жизнь, и целая куча соблазнов.
-    snail_mail: Обычная Почта
     sub_header: Не путать со спартанцами.
     title: Мы FetLife!
   components:
     step: Шаг
-  edit_profile:
-    sidebar_questions:
-      pics_and_vids_discoverability_a: Through FetLife’s search, your pics and vids are only findable by friends and followers. If you want other FetLifers to discover your kinkalicious pics and vids, you can update your privacy settings.
-      pics_and_vids_discoverability_link: Go to settings
-      pics_and_vids_discoverability_q: Pics and vid discoverability
   feed:
     comment: Комментарий
     comments_count:
+      few: "%{count_with_delimiter} Комментариев"
+      many: "%{count_with_delimiter} Комментариев"
       one: 1 Комментарий
       other: "%{count_with_delimiter} Комментариев"
     composer:
       button: Отправить
       placeholder: Написать комментарий
     love: Любовь
-    loved_hover: Сердце разбито! :-(
     loves_count:
+      few: "%{count_with_delimiter} Любовь"
+      many: "%{count_with_delimiter} Любовь"
       one: 1 Любовь
       other: "%{count_with_delimiter} Любовь"
     modal:
@@ -52,7 +43,6 @@ ru:
   footer:
     advertising: Реклама
     contact: Связаться с Нами
-    glossary: Глоссарий
     help: Помощь
     privacy: Конфиденциальность
   forgot_password:
@@ -60,7 +50,11 @@ ru:
       cta: Получить Письмо с Инструкциями
       error_forgot_email: Укажите адрес электронной почты.
       error_invalid_email: Это не похоже на настоящий адрес электронной почты. Проверьте и попытайтесь снова.
-      error_quota: We've recently sent a reset email to the above email address.  It can take up to 5-10 minutes for an email to show up in your inbox.  Please double check that the email did not end up in your spam folder.  If after 10 minutes you have not received the email you may try again to reset your password.
+      error_quota: |
+        Мы недавно отправили электронное письмо со ссылкой на сброс пароля на указанный электронный адрес.
+        Оно может оказаться в вашем почтовом ящике через 5-10 минут.
+        Пожалуйста проверьте, что это письмо не попало в spam.
+        Если через 10 минут Вы не получите это письмо - Вы можете попробовать сбросить пароль еще раз.
       placeholder: Адрес Электронной Почты
       step1:
         page_title: Сбросить Пароль по Электронной Почте
@@ -118,31 +112,11 @@ ru:
       terms_and_conditions_terms_of_use_link: Условия Использования
       title_description: Группа, это место где кинкстеры вместе делятся переживаниями, общими интересами, создают планы, и многое другое!
       title_title: Создать Новую Группу
-  guidelines:
-    header: Правила и Принципы FetLife
-    headers:
-      community: Правила Сообщества
-      content: Правила Контента
-      group_leader: Правила Руководителей Групп
-      values: Главные ценности
-    last_updated: 'Последнее изменение:'
-    sections:
-      guidelines:
-        description: Чтобы FetLife был интересным местом для всех, просим вас следовать нашим правилам.
-        title: Правила
-      legalese:
-        description: Этот раздел содержит Условия Использования, с которыми все участники соглашаются, когда они регистрируются на FetLife. Мы постарались сделать все как можно проще и понятнее.
-        title: Юридическая Информация
-      privacy:
-        description: Насколько безопасна информация и что FetLife делает для её защиты? В FetLife мы храним ваши данные так же, как свои собственные.
-        title: Конфиденциальность
-    subheader: Здесь вы найдете наши правила, юридическую документацию и политику конфиденциальности.
-    subnav:
-      community: Сообщество
-      content: Содержание
-      group_leader: Руководитель Группы
-      values: Ценности
-    title: Правила
+  header:
+    friendship_requests_count: Friendship Requests (%{count})
+    inbox_count: Inbox (%{count})
+    notifications_count: Notifications (%{count})
+    post_new: Post Something New
   invite_a_friend:
     cancel_button: отмена
     cancel_notice: Приглашение для %{email} было отозвано.
@@ -158,6 +132,8 @@ ru:
     next_step: следующий шаг
     return_to_feed: вернуться к ленте
     subtitle_step1:
+      few: У вас осталось %{count_with_delimiter} приглашений.
+      many: У вас осталось %{count_with_delimiter} приглашений.
       one: У вас осталось 1 приглашение.
       other: У вас осталось %{count_with_delimiter} приглашений.
     subtitle_step2: Мы отправили ваше приглашение %{email}.
@@ -165,24 +141,8 @@ ru:
     title_step2: Приглашение Отправлено
     view_invitations: посмотреть ваши приглашения
   landing_page:
-    login_button: Войти в FetLife
     signup_button: Присоединиться к FetLife
-    stats_details: делятся <strong class="fw4 silver">%{picture_count} фото</strong> и <strong class="fw4 silver">%{video_count} видео</strong>, участвуют в <strong class="fw4 silver">%{discussion_count} обсуждений</strong> в <strong class="fw4 silver">%{group_count} группах</strong>, посещают <strong class="fw4 silver">%{event_count} предстоящих мероприятий</strong>, и читают <strong class="fw4 silver">%{post_count} публикаций</strong>. <span><span class="i">Развратный рай!</span>
-    stats_members: Пользователей
-    subtitle: Как и Facebook, но созданный развратниками как ты и я. Мы считаем, что это намного круче. Не так ли?
     title: FetLife является Социальной Сетью для Сообщества БДСМ, Фетиш и Любителей Разврата.
-  legalese:
-    headers:
-      2257_exempt: 2257 Exempt
-      legal_requests: Юридические Запросы
-      privacy_policy: Политика Конфиденциальности
-      terms_of_use: Условия Использования
-    subnav:
-      2257_exempt: 2257 Exempt
-      legal_requests: Юридические Запросы
-      privacy: Политика Конфиденциальности
-      terms: Условия Использования
-    title: Юридическая Информация
   lockout:
     subtitle: Вы активировали нашу систему сигнализации.
     title: Охрана, Охрана, Охрана!
@@ -210,26 +170,35 @@ ru:
     title: Мы будем по вам скучать!
   member_stats:
     pics:
+      few: "%{count_with_delimiter} фото"
+      many: "%{count_with_delimiter} фото"
       one: 1 фото
       other: "%{count_with_delimiter} фото"
     posts:
+      few: "%{count_with_delimiter} постов"
+      many: "%{count_with_delimiter} постов"
       one: 1 пост
       other: "%{count_with_delimiter} постов"
     vids:
+      few: "%{count_with_delimiter} видео"
+      many: "%{count_with_delimiter} видео"
       one: 1 видео
       other: "%{count_with_delimiter} видео"
   nav:
     events: Мероприятия
     explore: Исследовать
     fetishes: Фетиши
+    fetlife_status: Status FetLife
     groups: Группы
     home: Домой
+    menu: Menu
+    menu_title: Show navigation menu
+    more: More
+    more_title: Navigate elsewhere
     places: Места
     search_placeholder: Искать на FetLife
     videos: Видео
     writings: Истории
-  page_break:
-    of: из
   privacy:
     title: Конфиденциальность
   profile:
@@ -260,7 +229,7 @@ ru:
     button: Сменить Язык по Умолчанию
     help_translate: Посетите наш <a class="silver" href="https://github.com/fetlife/translations">проект с переводами</a> на GitHub и помогите сделать FetLife доступным для большего количества наших развратных друзей <span class="amp">&amp</span> сообществ.
     language_name: Русский
-    sub_header: Hi, hallo, olá, bonjour, ciao, ahoj, opa, szia, 你好, привет, merhaba!
+    sub_header: Hi, hallo, olá, bonjour, ciao, ahoj, opa, szia, 你好, привет, merhaba, привіт, שלום!
     title: Выбрать Язык
   settings_account:
     2fa_cta: Включить 2-Факторную Аутентификацию
@@ -325,20 +294,22 @@ ru:
     title: Обновить Адрес Эл.Почты
   sidebar:
     about_fetlife: Наша Команда
-    ad_stats: Рекламная Статистика
+    account_settings: Account Settings
     advertisers: All Advertisers
     advertising: Реклама
     already_member: Уже зарегистрированы?
     androidapp: Установить Приложение для Android
+    become_verified: Become Verified!
     bug_bounty: Сообщить об Ошибке
     careers: Careers
-    caretaking: Caretaker Tools
     change_language: Сменить Язык
     close: закрыть
     contact_us: Написать Нам
+    content_guidelines: Content Guidelines
     edit_profile: Редактировать Профиль
     edit_settings: Обновить Настройки
     events: Мероприятия
+    exempt: 2257 Exempt
     fetishes: Фетиши
     following: Подписки
     formatting: Formatting Guidelines
@@ -346,31 +317,49 @@ ru:
     friends_and_following: Друзья и Подписки
     funny_quote: Если вы не можете это прочитать ... вероятно, вам нужны очки! - Иоанн 4:69
     gift_support: Подарить премиум на FetLife
-    glossary: Глоссарий
     groups: Группы
     guidelines: Правила
+    guiding_values: Guiding Values
     home: Home
     invite_a_friend: Пригласить Друга (%{count})
+    invites: Invites
     kp: Развратное & Популярное
+    legal_requests: Legal Request
     legalese: Условия Использования
     log_out: Выйти
     login: Войти
     loved_stuff: Избранное
     need_help: Нужна Помощь?
+    new_status: Post Status Update
+    new_writing: New Writing
+    noification_preferences: Notification Preferences
     open_source: Опенсорс
     places: Места
-    preservation_requests: Preservation Requests
     privacy: Приватность
+    privacy_options: Privacy Options
     privacy_policy: Privacy Policy
+    pwa: Add FetLife to Home Screen
     recommendations: Рекомендации
+    show_account_menu: Show Account Menu
     signup: Присоединиться к FetLife
-    subscriptions: Подписки
     support: Поддержать FetLife
     terms: Условия
+    title:
+      about_fetlife: About FetLife
+      community: Community
+      legalese: Legalese
+      need_help: Need Help?
+    transparency: Transparency
+    trust_and_safety: Trust & Safety
+    upcoming_events: Upcoming Events
     upload_picture: Загрузить Фото
     upload_video: Загрузить Видео
+    verification_pending: Profile Verification Pending
+    verify_profile: Verify Profile
     videos: Видео
     view_friends: Посмотреть Друзей
+    view_profile: view profile
+    view_terms: View Terms of Use
     wallpapers: FetLife Обои
     whats_new: Что Нового
     write_post: Написать Пост
@@ -396,8 +385,9 @@ ru:
     error_password_required: Укажите пароль.
     error_role_required: Необходимо указать Роль.
     error_sexual_orientation_required: Необходимо указать Сексуальную Ориентацию.
+    error_orientation_required: Orientation has to be selected.
     error_state_missing: Необходимо указать Штат/Область.
-    footnote: Нажимая "Завершить Регистрацию & Подтверждение", вы соглашаетесь уважать и следовать нашим <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Правилам Использования</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Политике Конфиденциальности</a>, и <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Правилам Сообщества</a>.
+    footnote: By clicking "Complete Signup & Verify Email" you agree to respect and follow our <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Terms of Use</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Privacy Policy</a>, and <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Community Guidelines</a>.
     label:
       birthdate: Дата Рождения
       city: Город
@@ -409,6 +399,7 @@ ru:
       password: Пароль
       role: Роль
       sexual_orientation: Сексуальная Ориентация
+      orientation: Orientation
       state: Штат/Область
     page_title: Присоединиться
     return_to_login: Уже зарегистрированы? Войти
@@ -442,44 +433,14 @@ ru:
     subtitle: Одноразовое анонимное СМС.
     title: Время Подтверждения!
   signup_verify:
-    cta: Завершить Регистрацию & Подтверждение
+    cta: Submit Verification Code
     incorrect_code: "<strong>Развратный Оператор:</strong> Хм&hellip; код подтверждения не подходит. Пожалуйста, убедитесь, что введённый номер совпадает с номером, который вы получили от нас, и попытайтесь снова."
-    label: Код Подтверждения
+    label: Enter the 6-digit code we just sent to your mobile phone.
     notice: Мы отправили код подтверждения на <strong>%{phone_number}</strong>. Если через несколько минут вы не получили от нас СМС, <a class="silver" href="%{back_path}">обновите свой номер, и мы отправим вам новый код подтверждения</a>.
     page_title: Введите Код Подтверждения
     placeholder: 6-значный Код Подтверждения
     subtitle: Было не так уж и сложно, не так ли?
-    title: Последний Шаг
-  subnav:
-    feed:
-      activity_feed: Лента Новостей
-      activity_feed_short: Home
-      fp: Свежее<span class="a-ampersand">&amp;</span>Пошлое
-      fp_short: Свежее
-      kp: Развратное<span class="a-ampersand">&amp;</span>Популярное
-      kp_short: Популярное
-    profile:
-      about: Обо Мне
-      about_short: Обо Мне
-      latest: Последняя Активность
-      latest_short: Последнее
-      pictures: Фото
-      pictures_short: Фото
-      videos: Видео
-      videos_short: Видео
-      writings: Записи
-      writings_short: Записи
-    settings:
-      account: Аккаунт
-      account_short: Аккаунт
-      notifications: Оповещения
-      notifications_short: Оповещения
-      privacy: Конфиденциальность
-      privacy_short: Конфиденциальность
-      profile: Профиль
-      profile_short: Профиль
-      support: Поддержка
-      support_short: Поддержка
+    title: Время Подтверждения!
   support:
     benefits:
       item_1: Сексуальный значок <span>I Support FetLife</span> на своём профиле.
@@ -487,12 +448,13 @@ ru:
       item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
       item_3: Сможете увидеть <span>все %{number}+ видео</span> в сообществе.
       item_4: Сможете увидеть <span>все %{number}+ фото</span> после их публикации.
-      item_5: Сможете увидеть <span>всё, что вы любите</span>.
+      item_5: View <span>everything you’ve ever loved and bookmarked</span>.
       item_6: Углубиться <span>в 25 раз дальше</span> в Ленту Новостей Друзей.
       item_7: Углубиться <span>в 25 раз дальше</span> в Вашу Собственную Ленту Новостей.
       item_8: "<span>Сможете настроить Ленту Друзей</span> на свой вкус."
       item_9: Option to <span>hide inline ads</span> on mobile.
       list_description: 'Всего за 5 долларов в месяц вы не только поддержите развитие FetLife, но и получите:'
+      list_description_exp: 'Всего за $5 %{currency} в месяц вы не только поддержите развитие FetLife, но и получите:'
       list_footer: Всего за сумму меньше стоимости смазки… хотя в то же время мы не советуем заменять смазку растительным маслом… оно не так хорошо в применении.
       thank_you: Без вашей поддержки не было бы FetLife. Спасибо всем членам семьи FetLife!
       title: Что я получу за финансовую поддержку FetLife?
@@ -547,10 +509,15 @@ ru:
       question_q: В. Есть вопросы?
       renew_a: Никогда. Мы хотим, чтобы вы сами предоставляли нам поддержку каждый раз.
       renew_q: В. Вы автоматически продляете мой премиум?
-      return_a: We have a 7-day money back guarantee. Unfortunately though, if you support us using Gift Card Trade-In, POLi, Cryptocurrency, or Paysafecard, due to the nature of how they work, they are final sale.
+      return_a_part_1: We offer a 7-day money back guarantee!
+      return_a_part_2: 'Unfortunately though, due to the nature of the following payment methods, we can''t issue refunds and all payments using these methods will be final sale: Gift Card Trade-IN, POLi, Cryptocurrency, and Paysafecard.'
+      return_a_part_3: Refunds are limited to one per person.
       return_q: В. Какие у вас условия возврата?
       secure_a: Да, очень. FetLife не хранит никакую вашу личную информацию на своих серверах. Мы используем информацию, предоставленную вами для проведения платежа, только и всего.
       secure_q: В. Это надёжно?
+      interac_q: Q. What currency is FetLife support billed in?
+      interac_a: |
+        All Support payments are billed in US$, with one exception: Canadian Interac e-Transfer, which is billed in CAN$.
       title: Часто Задаваемые Вопросы
     gift:
       affirm: Вы лучше всех!
@@ -570,12 +537,12 @@ ru:
       cc_curo:
         extra_info: Мы принимаем Visa, V Pay, Mastercard и Maestro. Это легко и безопасно.
         title: Кредитная Карта
-      cc_trustpay:
-        extra_info: Мы принимаем Visa и Mastercard. Это легко и безопасно.
-        title: Кредитная Карта
       coingate:
-        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
+        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, and XRP.
         title: Cryptocurrency
+      curo_sepa:
+        extra_info: Так же просто и безопасно, как оплата кредитной картой для тех, у кого есть банковский счет, который поддерживает SEPA в Европе.
+        title: European Bank Transfer (SEPA)
       eps:
         extra_info: Так же просто и безопасно, как оплата кредитной картой для тех, у кого есть банковский счет, который поддерживает EPS в Австрии.
         title: Austrian Bank Transfer (EPS)
@@ -594,7 +561,7 @@ ru:
         title: Простая Почта
       more_options: показать ещё варианты
       paygarden:
-        extra_info: Обменяйте подарочные карты 100+ компаний, включая Starbucks, Best Buy, Target, Walmart, Home Depot и Build-A-Bear.
+        extra_info: Обменяйте подарочные карты 100+ компаний, включая Best Buy, Target, Walmart, и Home Depot.
         title: Обмен на Подарочные Карты Крупных Компаний
       paysafe:
         extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
@@ -621,14 +588,22 @@ ru:
       30_title: "$30 за 6 Месяцев"
       60_info: "$5/месяц"
       60_title: "$60 за 12 Месяцев"
+      120_info_exp: "$5 %{currency}/месяц"
+      120_title_exp: "$120 %{currency} за 24 Месяца"
+      240_info_exp: "<i>Бесценно</i>"
+      240_title_exp: "$240 %{currency} на всю жизнь!"
+      30_info_exp: "$5 %{currency}/месяц"
+      30_title_exp: "$30 %{currency} за 6 Месяцев"
+      60_info_exp: "$5 %{currency}/месяц"
+      60_title_exp: "$60 %{currency} за 12 Месяцев"
       return_info: 7-дневная безоговорочная гарантия возврата денег.
       title: Как сильно вы любите FetLife?
     step2_paygarden:
       confirm: У меня есть Подарочная Карта, которую я хочу обменять на Премиум
-      list_footer: и <a href='%{link}'>сотни других известных фирм.</a>
+      list_footer: и <a href='%{link}' target="_blank">сотни других известных фирм.</a>
       list_header: Мы Принимаем Подарочные Карты от
       secure: Надёжно как Форт Нокс
-      tips: Если вы живёте за пределами Соединённых Штатов, мы советуем вам использовать ВПН/Прокси и купить подарочную карту за доллары в американских онлайн-магазинах Starbucks или Target.
+      tips: Если вы живёте за пределами Соединённых Штатов, мы советуем вам использовать ВПН/Прокси и купить подарочную карту за доллары в американских онлайн-магазинах Target.
       tips_header: Советы &amp; Подсказки
       title: Купить Подарочную Карту Известной Фирмы
     step3_ach:
@@ -730,17 +705,18 @@ ru:
       secure: Надёжно как Форт Нокс, и мы не сохраняем никакую вашу информацию.
       title: iDEAL Платёж
     step3_interac:
-      amount: 'Сумма:'
-      answer_label: 'Ответ:'
+      amount: Сумма
+      answer_label: Ответ
       answer_placeholder: Ответ
       cta: Я отправил Interac e-Transfer
-      question_label: 'Контрольный Вопрос:'
+      message: Message
+      question_label: Контрольный Вопрос
       question_placeholder: Контрольный Вопрос
-      send: 'Отправить:'
+      send: Отправить
       thank_you: Спасибо!
       title: Отправить Interac e-Transfer перевод
     step3_mail:
-      accept_options: International Money Order, Check, or Cash
+      accept_options: Международный денежный перевод, чек или наличные
       accept_title: 'Мы Принимаем:'
       amount: 'Сумма:'
       cta: Отправить мне информацию по эл.почте
